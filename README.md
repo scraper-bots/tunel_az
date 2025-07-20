@@ -604,19 +604,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Open source audio processing libraries
 - Research papers that inspired this work
 
-## 📞 Contact
-
-**Ismat Samadov**
-- GitHub: [@Ismat-Samadov](https://github.com/Ismat-Samadov)
-- Email: ismat.samadov@example.com
-- LinkedIn: [Ismat Samadov](https://linkedin.com/in/ismat-samadov)
-
-## 🔗 Related Projects
-
-- [Named Entity Recognition](https://github.com/Ismat-Samadov/Named_Entity_Recognition)
-- [Crop Disease Detection](https://github.com/Ismat-Samadov/crop_desease_detection)
-- [Agent Implementation](https://github.com/Ismat-Samadov/agent_implementation)
-
 ---
 
 ⭐ **Star this repository if you find it helpful!** ⭐
