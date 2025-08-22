@@ -1,0 +1,1842 @@
+api headers
+
+Request URL
+https://api.tunel.az/api/announcements?page=5&limit=24&announcement_type=sale&srsltid=AfmBOorBs1DPccECIneSa4jGUBUy3uexZcrUjCZttJ9hLUIx9Na4shp_
+Request Method
+GET
+Status Code
+200 OK
+Remote Address
+172.67.68.204:443
+Referrer Policy
+strict-origin-when-cross-origin
+access-control-allow-credentials
+true
+access-control-allow-origin
+*
+alt-svc
+h3=":443"; ma=86400
+cf-cache-status
+DYNAMIC
+cf-ray
+9732a1f73b3d09b0-ARN
+content-encoding
+zstd
+content-type
+application/json
+date
+Fri, 22 Aug 2025 13:14:20 GMT
+nel
+{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+report-to
+{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=9kj4MwVYbCuBbbbElQaIyQRS7QoFoVRNgJxzVkAMgQmIzTMtmBzOkeA9N%2FEtTXQYFB%2Flratil%2BL%2B9%2F4OJvSi8XpvzPS%2BpmdjjhY%3D"}]}
+server
+cloudflare
+vary
+Accept-Encoding
+:authority
+api.tunel.az
+:method
+GET
+:path
+/api/announcements?page=5&limit=24&announcement_type=sale&srsltid=AfmBOorBs1DPccECIneSa4jGUBUy3uexZcrUjCZttJ9hLUIx9Na4shp_
+:scheme
+https
+accept
+*/*
+accept-encoding
+gzip, deflate, br, zstd
+accept-language
+az
+content-type
+application/json
+dnt
+1
+origin
+https://tunel.az
+priority
+u=1, i
+referer
+https://tunel.az/
+sec-ch-ua
+"Not;A=Brand";v="99", "Google Chrome";v="139", "Chromium";v="139"
+sec-ch-ua-mobile
+?0
+sec-ch-ua-platform
+"macOS"
+sec-fetch-dest
+empty
+sec-fetch-mode
+cors
+sec-fetch-site
+same-site
+user-agent
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+x-browser
+chrome
+x-browser-version
+139.0
+x-device-id
+YTU4NTU0ZDItNTFlYy00Y2UzLTkxN2YtZjYyZTA4MThlNTg4LU1vemlsbGEvNS4wIChNYWNpbnRvc2g7IEludGVsIE1hYyBPUyBYIDEwXzE1XzcpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMzkuMC4wLjAgU2FmYXJpLzUzNy4zNi1pcGFkLWVuLUdCLTE0NzB4OTU2LUFzaWEvQmFrdQ==
+x-device-type
+mobile
+x-os
+ipad
+x-os-version
+Unknown
+x-screen-resolution
+1470x956
+x-session-type
+web
+x-timezone
+Asia/Baku
+x-user-agent
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+
+api payload:
+
+page=5&limit=24&announcement_type=sale&srsltid=AfmBOorBs1DPccECIneSa4jGUBUy3uexZcrUjCZttJ9hLUIx9Na4shp_
+
+
+api response:{
+    "code": 200,
+    "message": "Uğurlu.",
+    "data": {
+        "items": [
+            {
+                "id": "3cdc869a-157d-4bb5-99dc-a61a3cc63524",
+                "images": [
+                    "2025/08/20/unknown/33612836180567495311301865571/announcement/images/acfe35d3-476d-4862-a8e8-ec60bb7e5acb.webp",
+                    "2025/08/20/unknown/33612836180567495311301865571/announcement/images/3b13f717-f261-48fb-8b53-53a2ba042abc.webp",
+                    "2025/08/20/unknown/33612836180567495311301865571/announcement/images/95cbad86-f4bd-4926-80c0-8dd5a05b390b.webp",
+                    "2025/08/20/unknown/33612836180567495311301865571/announcement/images/366c4d42-a490-4b53-998d-18121b700b5a.webp",
+                    "2025/08/20/unknown/33612836180567495311301865571/announcement/images/fc9b18f0-70cc-4030-9446-58edede0368f.webp",
+                    "2025/08/20/unknown/33612836180567495311301865571/announcement/images/988e1eff-8b11-41ba-b462-95c03575575a.webp",
+                    "2025/08/20/unknown/33612836180567495311301865571/announcement/images/a2239956-8421-48c1-a779-33b3dc278d6b.webp",
+                    "2025/08/20/unknown/33612836180567495311301865571/announcement/images/deb62796-a6a9-4c97-80f5-6d1610c03cfc.webp",
+                    "2025/08/20/unknown/33612836180567495311301865571/announcement/images/80ec3c9d-3821-404f-8406-8371725bcd6e.webp",
+                    "2025/08/20/unknown/33612836180567495311301865571/announcement/images/40542342-3d81-434a-8941-cc0742d42a02.webp",
+                    "2025/08/20/unknown/33612836180567495311301865571/announcement/images/bd9401f8-038f-44ff-9720-734c93c76681.webp",
+                    "2025/08/20/unknown/33612836180567495311301865571/announcement/images/047de318-f758-4685-b321-48eb2e4de60c.webp",
+                    "2025/08/20/unknown/33612836180567495311301865571/announcement/images/aa14952f-cdad-4d07-b2e1-d7d224ac95bd.webp",
+                    "2025/08/20/unknown/33612836180567495311301865571/announcement/images/6ebaaa80-baf5-42d1-b738-5a270ff87cc9.webp"
+                ],
+                "price_value": 33000,
+                "description": "maşin polnu ful maşindi  bezkraskadi heç bir problemi yoxdur ailə maşinidi il 2015 2016 model təcili satılır",
+                "barter": false,
+                "credit": false,
+                "year": 2015,
+                "slug": "3cdc869a-157d-4bb5-99dc-a61a3cc63524-Hyundai-Santa Fe",
+                "mileage_value": 250000,
+                "price_unit": {
+                    "id": 28,
+                    "value": "₼"
+                },
+                "view_count": 576,
+                "confirmation_status": null,
+                "announcement_status": null,
+                "editable": false,
+                "is_liked": false,
+                "account_user_id": 74377,
+                "account_id": "fdec05f1-3915-481a-8dbf-2f8c6928c759",
+                "account_username": "elsen_wala1kg",
+                "month": null,
+                "percent": null,
+                "initial_price_value": null,
+                "mileage_unit": {
+                    "id": 1,
+                    "value": "km"
+                },
+                "engine_capacity": {
+                    "id": 80,
+                    "value": "2000"
+                },
+                "marka": {
+                    "id": 115,
+                    "value": "Hyundai"
+                },
+                "city": {
+                    "id": 3,
+                    "value": "Ağcabədi"
+                },
+                "model": {
+                    "id": 3076,
+                    "value": "Santa Fe"
+                },
+                "created_at": "20 Avqust, 13:11",
+                "account_type": {
+                    "id": "user",
+                    "value": "İstifadəçi",
+                    "avatar": null,
+                    "verified": 0
+                },
+                "announcement_type": {
+                    "id": "sale",
+                    "value": "Satış"
+                },
+                "ad": false
+            },
+            {
+                "id": "d66b1c5f-aa9b-4e75-958b-97bf240d91c0",
+                "images": [
+                    "2025/08/20/unknown/29211589212139191431990865571/announcement/images/0809f071-014b-4739-9ce2-71bbd1090266.webp",
+                    "2025/08/20/unknown/29211589212139191431990865571/announcement/images/f4d6f450-b1df-466e-9447-6e598dd2ab49.webp",
+                    "2025/08/20/unknown/29211589212139191431990865571/announcement/images/2ddad800-3108-4015-b677-9399d42f69b2.webp",
+                    "2025/08/20/unknown/29211589212139191431990865571/announcement/images/55536281-f586-4062-8d26-b5d600cc7e84.webp",
+                    "2025/08/20/unknown/29211589212139191431990865571/announcement/images/7e2c84eb-d127-46ac-a7a2-1a8b4e2f873e.webp",
+                    "2025/08/20/unknown/29211589212139191431990865571/announcement/images/690d61cf-ae7e-454b-9908-3e08b76ce24f.webp",
+                    "2025/08/20/unknown/29211589212139191431990865571/announcement/images/171c066f-e94f-4a06-ba83-1f93f67550b8.webp",
+                    "2025/08/20/unknown/29211589212139191431990865571/announcement/images/4c8cd8e8-c7ca-47fa-b3e9-3d8011342e10.webp",
+                    "2025/08/20/unknown/29211589212139191431990865571/announcement/images/5eeef041-5ec3-4977-9811-e008dffe9226.webp"
+                ],
+                "price_value": 2000,
+                "description": "Salam maşin vəziyyətdədir otur sür gedsin qiyməti razilaşmav olar",
+                "barter": false,
+                "credit": false,
+                "year": 1985,
+                "slug": "d66b1c5f-aa9b-4e75-958b-97bf240d91c0-LADA (VAZ)-2106",
+                "mileage_value": 234567,
+                "price_unit": {
+                    "id": 28,
+                    "value": "₼"
+                },
+                "view_count": 522,
+                "confirmation_status": null,
+                "announcement_status": null,
+                "editable": false,
+                "is_liked": false,
+                "account_user_id": 74376,
+                "account_id": "f0d1f1c5-e56c-4c53-ade7-8ceee11ff6b1",
+                "account_username": "xaqani_dowo5d2",
+                "month": null,
+                "percent": null,
+                "initial_price_value": null,
+                "mileage_unit": {
+                    "id": 1,
+                    "value": "km"
+                },
+                "engine_capacity": {
+                    "id": 76,
+                    "value": "1600"
+                },
+                "marka": {
+                    "id": 160,
+                    "value": "LADA (VAZ)"
+                },
+                "city": {
+                    "id": 7,
+                    "value": "Bakı"
+                },
+                "model": {
+                    "id": 3616,
+                    "value": "2106"
+                },
+                "created_at": "20 Avqust, 13:10",
+                "account_type": {
+                    "id": "user",
+                    "value": "İstifadəçi",
+                    "avatar": null,
+                    "verified": 0
+                },
+                "announcement_type": {
+                    "id": "sale",
+                    "value": "Satış"
+                },
+                "ad": false
+            },
+            {
+                "id": "ee0c9ab7-f773-4051-be0b-36555509b597",
+                "images": [
+                    "2025/08/20/unknown/42256725990735567860590865571/announcement/images/bbc4fc85-b595-4870-9a95-876062967a66.webp",
+                    "2025/08/20/unknown/42256725990735567860590865571/announcement/images/a548423d-658b-4eca-b4d7-5c4d36c7a14a.webp",
+                    "2025/08/20/unknown/42256725990735567860590865571/announcement/images/2e5fa390-1faf-4c4c-b71f-1ab357b00da3.webp",
+                    "2025/08/20/unknown/42256725990735567860590865571/announcement/images/a9625f1a-f39d-450f-bfb2-84dca5a3d150.webp",
+                    "2025/08/20/unknown/42256725990735567860590865571/announcement/images/6550143a-abea-48b0-b83f-89702be2503c.webp",
+                    "2025/08/20/unknown/42256725990735567860590865571/announcement/images/34832b4d-7ce3-4722-8107-210be51b3b2f.webp",
+                    "2025/08/20/unknown/42256725990735567860590865571/announcement/images/3c81f8ab-00b6-4661-880f-06d1cb9cacf6.webp",
+                    "2025/08/20/unknown/42256725990735567860590865571/announcement/images/8d27162f-b437-401f-bacc-4c628a274d72.webp",
+                    "2025/08/20/unknown/42256725990735567860590865571/announcement/images/dd4a8469-e1ae-4d1f-aaff-ccecaa538393.webp"
+                ],
+                "price_value": 12700,
+                "description": "",
+                "barter": false,
+                "credit": false,
+                "year": 2009,
+                "slug": "ee0c9ab7-f773-4051-be0b-36555509b597-Hyundai-Elantra",
+                "mileage_value": 235300,
+                "price_unit": {
+                    "id": 28,
+                    "value": "₼"
+                },
+                "view_count": 532,
+                "confirmation_status": null,
+                "announcement_status": null,
+                "editable": false,
+                "is_liked": false,
+                "account_user_id": 74375,
+                "account_id": "0470b2f4-45c8-48f3-8362-47b9e47af744",
+                "account_username": "tural_ijgjljs",
+                "month": null,
+                "percent": null,
+                "initial_price_value": null,
+                "mileage_unit": {
+                    "id": 1,
+                    "value": "km"
+                },
+                "engine_capacity": {
+                    "id": 76,
+                    "value": "1600"
+                },
+                "marka": {
+                    "id": 115,
+                    "value": "Hyundai"
+                },
+                "city": {
+                    "id": 7,
+                    "value": "Bakı"
+                },
+                "model": {
+                    "id": 3037,
+                    "value": "Elantra"
+                },
+                "created_at": "20 Avqust, 13:09",
+                "account_type": {
+                    "id": "user",
+                    "value": "İstifadəçi",
+                    "avatar": null,
+                    "verified": 0
+                },
+                "announcement_type": {
+                    "id": "sale",
+                    "value": "Satış"
+                },
+                "ad": false
+            },
+            {
+                "id": "8eb0eab1-6a12-4eb0-9943-cb4433e41d90",
+                "images": [
+                    "2025/08/20/unknown/11629176565435591691090865571/announcement/images/22fb02cb-d5ba-4150-958a-f46c66348c6d.webp",
+                    "2025/08/20/unknown/11629176565435591691090865571/announcement/images/39206113-d020-476b-be6e-21cb57dc08fd.webp",
+                    "2025/08/20/unknown/11629176565435591691090865571/announcement/images/135e1350-17cf-4c5e-a3a3-4af69b19d8db.webp",
+                    "2025/08/20/unknown/11629176565435591691090865571/announcement/images/f51ee6be-ef87-4b4e-ad1c-11121226bafd.webp",
+                    "2025/08/20/unknown/11629176565435591691090865571/announcement/images/24b256f2-db9c-4e21-8954-ad07400715df.webp",
+                    "2025/08/20/unknown/11629176565435591691090865571/announcement/images/653b0c97-3e78-4826-b1ff-96070158c5fb.webp",
+                    "2025/08/20/unknown/11629176565435591691090865571/announcement/images/7c94290f-bf3c-4c68-a061-40f2c2407a01.webp",
+                    "2025/08/20/unknown/11629176565435591691090865571/announcement/images/00417260-4c68-4970-8d49-3629ee4cf4e6.webp",
+                    "2025/08/20/unknown/11629176565435591691090865571/announcement/images/0f24936c-ed97-4f70-9896-5f7f60f6cab5.webp",
+                    "2025/08/20/unknown/11629176565435591691090865571/announcement/images/328cb5cb-1343-49d8-bfd2-de7a64db3af0.webp",
+                    "2025/08/20/unknown/11629176565435591691090865571/announcement/images/689b863e-79a5-4c2e-9a5e-73eaeb631398.webp",
+                    "2025/08/20/unknown/11629176565435591691090865571/announcement/images/9d6906e9-9820-4c75-b962-de72a2547800.webp",
+                    "2025/08/20/unknown/11629176565435591691090865571/announcement/images/1d7ccf5a-04e4-46f0-8034-32b972d3fb2b.webp",
+                    "2025/08/20/unknown/11629176565435591691090865571/announcement/images/50f215cf-b631-4ebf-b4e2-cf65d8528bee.webp"
+                ],
+                "price_value": 8500,
+                "description": "Maşın əla vəzyətdədir prablemsiz maşındır  al sür barter də mümkündür öz qiymətinə uyğun olan  maşınlarla",
+                "barter": true,
+                "credit": false,
+                "year": 2008,
+                "slug": "8eb0eab1-6a12-4eb0-9943-cb4433e41d90-LADA (VAZ)-Kalina",
+                "mileage_value": 358704,
+                "price_unit": {
+                    "id": 28,
+                    "value": "₼"
+                },
+                "view_count": 515,
+                "confirmation_status": null,
+                "announcement_status": null,
+                "editable": false,
+                "is_liked": false,
+                "account_user_id": 74374,
+                "account_id": "a2ead5b7-2ef5-46b3-a038-ef2d11f1faed",
+                "account_username": "senan_ekdkfgd",
+                "month": null,
+                "percent": null,
+                "initial_price_value": null,
+                "mileage_unit": {
+                    "id": 1,
+                    "value": "km"
+                },
+                "engine_capacity": {
+                    "id": 76,
+                    "value": "1600"
+                },
+                "marka": {
+                    "id": 160,
+                    "value": "LADA (VAZ)"
+                },
+                "city": {
+                    "id": 61,
+                    "value": "Şəmkir"
+                },
+                "model": {
+                    "id": 3634,
+                    "value": "Kalina"
+                },
+                "created_at": "20 Avqust, 13:08",
+                "account_type": {
+                    "id": "user",
+                    "value": "İstifadəçi",
+                    "avatar": null,
+                    "verified": 0
+                },
+                "announcement_type": {
+                    "id": "sale",
+                    "value": "Satış"
+                },
+                "ad": false
+            },
+            {
+                "id": "bcb6e7f0-9622-48ce-8c06-47b60f9fbde5",
+                "images": [
+                    "2025/08/20/unknown/11336423615596925688380865571/announcement/images/74da145e-3558-4e39-ac77-93e70a54d023.webp",
+                    "2025/08/20/unknown/11336423615596925688380865571/announcement/images/4055bfaf-093c-4ef7-8f7b-4b48d3385ba4.webp",
+                    "2025/08/20/unknown/11336423615596925688380865571/announcement/images/ea7808c1-c2a7-4280-8907-fdabcbe1ca7f.webp",
+                    "2025/08/20/unknown/11336423615596925688380865571/announcement/images/60d6cd01-3e25-4154-9be0-51474a76f6ee.webp",
+                    "2025/08/20/unknown/11336423615596925688380865571/announcement/images/092f7750-c30b-4beb-bbd6-118c10dc88fa.webp",
+                    "2025/08/20/unknown/11336423615596925688380865571/announcement/images/9a5c5c72-5c45-4f23-9707-6d148447207c.webp",
+                    "2025/08/20/unknown/11336423615596925688380865571/announcement/images/a06166b5-ccee-468c-9d40-2d5c009a4b5f.webp",
+                    "2025/08/20/unknown/11336423615596925688380865571/announcement/images/6a2dc900-bdff-4d4d-b5c5-f09531926ff9.webp",
+                    "2025/08/20/unknown/11336423615596925688380865571/announcement/images/d439ed8f-1946-461e-9689-8ae0dc507742.webp",
+                    "2025/08/20/unknown/11336423615596925688380865571/announcement/images/066f040a-cab0-42b7-bba5-51944cbf4de2.webp",
+                    "2025/08/20/unknown/11336423615596925688380865571/announcement/images/5f75aea0-c869-4c69-b548-87618232d239.webp"
+                ],
+                "price_value": 6000,
+                "description": "Maşin zavodur. Mator karopka perdok ela. Qidravlika rul. Senetler qaydasinda.",
+                "barter": false,
+                "credit": false,
+                "year": 2007,
+                "slug": "bcb6e7f0-9622-48ce-8c06-47b60f9fbde5-LADA (VAZ)-2110",
+                "mileage_value": 235000,
+                "price_unit": {
+                    "id": 28,
+                    "value": "₼"
+                },
+                "view_count": 325,
+                "confirmation_status": null,
+                "announcement_status": null,
+                "editable": false,
+                "is_liked": false,
+                "account_user_id": 74373,
+                "account_id": "09926ab8-8b7b-4f3a-8301-d0002db5df55",
+                "account_username": "nazim_kgog8a0",
+                "month": null,
+                "percent": null,
+                "initial_price_value": null,
+                "mileage_unit": {
+                    "id": 1,
+                    "value": "km"
+                },
+                "engine_capacity": {
+                    "id": 75,
+                    "value": "1500"
+                },
+                "marka": {
+                    "id": 160,
+                    "value": "LADA (VAZ)"
+                },
+                "city": {
+                    "id": 50,
+                    "value": "Sumqayıt"
+                },
+                "model": {
+                    "id": 3621,
+                    "value": "2110"
+                },
+                "created_at": "20 Avqust, 13:07",
+                "account_type": {
+                    "id": "user",
+                    "value": "İstifadəçi",
+                    "avatar": null,
+                    "verified": 0
+                },
+                "announcement_type": {
+                    "id": "sale",
+                    "value": "Satış"
+                },
+                "ad": false
+            },
+            {
+                "id": "6c3b37e4-a87b-4765-bb53-e97f89c2be9a",
+                "images": [
+                    "2025/08/20/unknown/62191379125645072250679765571/announcement/images/50b439a5-7233-42c2-b91f-4b4417ef7611.webp",
+                    "2025/08/20/unknown/62191379125645072250679765571/announcement/images/53d0052f-ef67-47ed-95de-d54b849f155e.webp",
+                    "2025/08/20/unknown/62191379125645072250679765571/announcement/images/f840ef64-7a0c-4c68-b1d3-201e64a31d9a.webp",
+                    "2025/08/20/unknown/62191379125645072250679765571/announcement/images/a80beed8-0b0b-4e62-b7ec-4c254cb9b71d.webp",
+                    "2025/08/20/unknown/62191379125645072250679765571/announcement/images/59e5babd-3754-4629-997b-580cea146a30.webp",
+                    "2025/08/20/unknown/62191379125645072250679765571/announcement/images/25a1fa62-3297-4d12-a383-2134cc41db80.webp",
+                    "2025/08/20/unknown/62191379125645072250679765571/announcement/images/73c8b1f9-b01d-407a-9445-2e73f0e3a0ae.webp",
+                    "2025/08/20/unknown/62191379125645072250679765571/announcement/images/66a88dcd-b67c-4d70-a4b0-b1599a5e04bd.webp",
+                    "2025/08/20/unknown/62191379125645072250679765571/announcement/images/6c1384b2-cde5-4092-836a-2099f37b25b1.webp",
+                    "2025/08/20/unknown/62191379125645072250679765571/announcement/images/c8425338-9eb9-4423-995e-9635b60fd25a.webp",
+                    "2025/08/20/unknown/62191379125645072250679765571/announcement/images/e5460901-d2d9-4c81-8941-bea538a2848b.webp",
+                    "2025/08/20/unknown/62191379125645072250679765571/announcement/images/a629a5f9-c89e-4657-8d81-01e0797280b1.webp",
+                    "2025/08/20/unknown/62191379125645072250679765571/announcement/images/b0f2f9df-75fc-44e4-9157-de7ecd5bc226.webp",
+                    "2025/08/20/unknown/62191379125645072250679765571/announcement/images/025ca13c-c190-4856-b737-9ea59fa78697.webp",
+                    "2025/08/20/unknown/62191379125645072250679765571/announcement/images/519627f7-6716-4107-ac43-6b305f7cd38f.webp",
+                    "2025/08/20/unknown/62191379125645072250679765571/announcement/images/8329c444-8bfa-4f35-aa0f-5364563ce02e.webp"
+                ],
+                "price_value": 19800,
+                "description": "salam mawin 2018 ilde olkeye gelib.wexsi istifade ucun.7 1. zavod cixiwi serniwindi. iki condicanerlidi.qabaq ayri arxa ayri.motor ,karopka,salon eladi.tekerleri tezedi. mawin gelen gunden ozumdedi.",
+                "barter": false,
+                "credit": false,
+                "year": 2008,
+                "slug": "6c3b37e4-a87b-4765-bb53-e97f89c2be9a-Mercedes-Vito 111",
+                "mileage_value": 590000,
+                "price_unit": {
+                    "id": 28,
+                    "value": "₼"
+                },
+                "view_count": 398,
+                "confirmation_status": null,
+                "announcement_status": null,
+                "editable": false,
+                "is_liked": false,
+                "account_user_id": 74372,
+                "account_id": "bb886f61-7eb7-4f16-8f44-77bbc36bbbdb",
+                "account_username": "semed_kgog7kh",
+                "month": null,
+                "percent": null,
+                "initial_price_value": null,
+                "mileage_unit": {
+                    "id": 1,
+                    "value": "km"
+                },
+                "engine_capacity": {
+                    "id": 82,
+                    "value": "2200"
+                },
+                "marka": {
+                    "id": 186,
+                    "value": "Mercedes"
+                },
+                "city": {
+                    "id": 7,
+                    "value": "Bakı"
+                },
+                "model": {
+                    "id": 1477,
+                    "value": "Vito 111"
+                },
+                "created_at": "20 Avqust, 12:49",
+                "account_type": {
+                    "id": "user",
+                    "value": "İstifadəçi",
+                    "avatar": null,
+                    "verified": 0
+                },
+                "announcement_type": {
+                    "id": "sale",
+                    "value": "Satış"
+                },
+                "ad": false
+            },
+            {
+                "id": "eb1a1b00-3e4b-4c9f-849d-e7dadb860ad4",
+                "images": [
+                    "2025/08/20/unknown/99906027468414402951769765571/announcement/images/8b80c41d-56df-4afa-ab79-f37ebae7c72d.webp",
+                    "2025/08/20/unknown/99906027468414402951769765571/announcement/images/260ba5b4-7dd9-4dcf-85a1-8df4971d18ef.webp",
+                    "2025/08/20/unknown/99906027468414402951769765571/announcement/images/8f2b30a1-d8f4-4141-853b-aadc2c6bb0b3.webp",
+                    "2025/08/20/unknown/99906027468414402951769765571/announcement/images/28db57ef-9aae-4a8c-ab1d-fb7be9ac6c3c.webp",
+                    "2025/08/20/unknown/99906027468414402951769765571/announcement/images/599d56ca-83f1-40c5-82cf-458a0a6c79bf.webp",
+                    "2025/08/20/unknown/99906027468414402951769765571/announcement/images/d13e288d-25d6-4821-b515-6152dd1462c0.webp"
+                ],
+                "price_value": 26500,
+                "description": "",
+                "barter": false,
+                "credit": false,
+                "year": 2005,
+                "slug": "eb1a1b00-3e4b-4c9f-849d-e7dadb860ad4-Ford-Transit",
+                "mileage_value": 120000,
+                "price_unit": {
+                    "id": 28,
+                    "value": "₼"
+                },
+                "view_count": 344,
+                "confirmation_status": null,
+                "announcement_status": null,
+                "editable": false,
+                "is_liked": false,
+                "account_user_id": 74371,
+                "account_id": "98a29cc9-65b5-40c8-b701-ebe9adf00627",
+                "account_username": "letif_8747n1g",
+                "month": null,
+                "percent": null,
+                "initial_price_value": null,
+                "mileage_unit": {
+                    "id": 1,
+                    "value": "km"
+                },
+                "engine_capacity": {
+                    "id": 85,
+                    "value": "2500"
+                },
+                "marka": {
+                    "id": 81,
+                    "value": "Ford"
+                },
+                "city": {
+                    "id": 39,
+                    "value": "Mingəçevir"
+                },
+                "model": {
+                    "id": 2613,
+                    "value": "Transit"
+                },
+                "created_at": "20 Avqust, 12:48",
+                "account_type": {
+                    "id": "user",
+                    "value": "İstifadəçi",
+                    "avatar": null,
+                    "verified": 0
+                },
+                "announcement_type": {
+                    "id": "sale",
+                    "value": "Satış"
+                },
+                "ad": false
+            },
+            {
+                "id": "b8af057b-9380-463c-8dec-565553663baa",
+                "images": [
+                    "2025/08/20/unknown/67550048799051440063269765571/announcement/images/c96f777b-1eea-481a-bcb8-95430c44c23a.webp",
+                    "2025/08/20/unknown/67550048799051440063269765571/announcement/images/4fddff5c-54c6-4edf-8a84-dca08e2cab24.webp",
+                    "2025/08/20/unknown/67550048799051440063269765571/announcement/images/1f7204db-03f3-409f-b41f-6a6ff8a3210b.webp",
+                    "2025/08/20/unknown/67550048799051440063269765571/announcement/images/fc11509e-67d0-42c2-aaec-f49144f4c5ea.webp",
+                    "2025/08/20/unknown/67550048799051440063269765571/announcement/images/8b4a16f1-872e-4a8a-8190-117c139ce5e2.webp",
+                    "2025/08/20/unknown/67550048799051440063269765571/announcement/images/75ffb28b-eecb-4748-9d6b-887547af3db9.webp",
+                    "2025/08/20/unknown/67550048799051440063269765571/announcement/images/0e3d6524-aa89-4678-81d8-5731e4ef5dce.webp",
+                    "2025/08/20/unknown/67550048799051440063269765571/announcement/images/0f074d89-6ad5-43a1-b597-8e35574e1509.webp"
+                ],
+                "price_value": 22000,
+                "description": "BMW E39 Individual  Masin ideal veziyetdedir Original M5 E39 Surretler qutusu qoyulub 6ireli 1 qeriye.3.45 BLOKIROVKA MOST, KW - firma 4 eded coilover qoyulub Muherrik 4.6 a yigilib proqram yazilib 10W60 Liqui moly yag tokulur. Mator Xadavoy ideal veziyetdedir istediyviz Yerde yoxlatdira bilersiz. Usta Masinidi. 3.45 Blokirovka Most Qoşa Şüşələr Original arxa ve on M Buferler Original Hella Fara Stop M salon guzgu M yan guzguler  M rul M Kantlar M original Spoiler DSP-2 ses sistemi Benson fiolet potpres  Qisa Kulisa I Bus sistem ESR Yungul diskler Toyo Sport Teze tekerler qoyuluh hec 500km surulmeyib. Kosmetik Isi yoxdu 13000AZN pul qoyulub.  BARTER  mumkundur.  NÖMRƏSİZ SATİLİR!!!",
+                "barter": true,
+                "credit": true,
+                "year": 2000,
+                "slug": "b8af057b-9380-463c-8dec-565553663baa-BMW-540",
+                "mileage_value": 300000,
+                "price_unit": {
+                    "id": 28,
+                    "value": "₼"
+                },
+                "view_count": 380,
+                "confirmation_status": null,
+                "announcement_status": null,
+                "editable": false,
+                "is_liked": false,
+                "account_user_id": 74370,
+                "account_id": "13784b12-3f8c-4dfe-bfb8-62818b095c99",
+                "account_username": "eziz_tnsnd0p",
+                "month": null,
+                "percent": null,
+                "initial_price_value": null,
+                "mileage_unit": {
+                    "id": 1,
+                    "value": "km"
+                },
+                "engine_capacity": {
+                    "id": 105,
+                    "value": "4400"
+                },
+                "marka": {
+                    "id": 31,
+                    "value": "BMW"
+                },
+                "city": {
+                    "id": 7,
+                    "value": "Bakı"
+                },
+                "model": {
+                    "id": 379,
+                    "value": "540"
+                },
+                "created_at": "20 Avqust, 12:47",
+                "account_type": {
+                    "id": "user",
+                    "value": "İstifadəçi",
+                    "avatar": null,
+                    "verified": 0
+                },
+                "announcement_type": {
+                    "id": "sale",
+                    "value": "Satış"
+                },
+                "ad": false
+            },
+            {
+                "id": "8d87f9a8-a0ca-42d3-a409-52fd06786ce7",
+                "images": [
+                    "2025/08/20/unknown/36641751166424203668448765571/announcement/images/835c315d-2a2a-42b9-8e8f-a9aaef074fde.webp",
+                    "2025/08/20/unknown/36641751166424203668448765571/announcement/images/dedfbf80-0f76-4afb-8708-c9b646e0c67c.webp",
+                    "2025/08/20/unknown/36641751166424203668448765571/announcement/images/56205d1f-9087-445c-98c1-4cbe043d1614.webp",
+                    "2025/08/20/unknown/36641751166424203668448765571/announcement/images/b44fe578-ab6b-4670-b5a4-13431634945b.webp",
+                    "2025/08/20/unknown/36641751166424203668448765571/announcement/images/c98d2c63-36d4-4d41-9c9e-f1536d20d78c.webp",
+                    "2025/08/20/unknown/36641751166424203668448765571/announcement/images/a22c8fb6-729c-43ee-bb44-8e6d786f9828.webp",
+                    "2025/08/20/unknown/36641751166424203668448765571/announcement/images/7ffb2a06-4522-4817-afb9-bb737f867d43.webp",
+                    "2025/08/20/unknown/36641751166424203668448765571/announcement/images/9709a10f-116e-4d9a-a49d-b1da2b26e025.webp",
+                    "2025/08/20/unknown/36641751166424203668448765571/announcement/images/adbe333b-dbd5-4138-ba05-8299a5dda560.webp",
+                    "2025/08/20/unknown/36641751166424203668448765571/announcement/images/12250289-64c1-47ed-9934-37edb7212825.webp",
+                    "2025/08/20/unknown/36641751166424203668448765571/announcement/images/81751b3d-ecef-4aa4-b63e-e7e4232e8852.webp",
+                    "2025/08/20/unknown/36641751166424203668448765571/announcement/images/d736b2bb-099c-49db-bc6c-a79ad1a313b8.webp"
+                ],
+                "price_value": 24500,
+                "description": "Maşın ideal vəziyyətdədir.Qaraj şəraitində saxlanılır. Heç bir problemi yoxdur. Rul yeni orjinal M ilə əvəzlənib. İstənilən servisdə yoxlatmaa mümkündür.",
+                "barter": false,
+                "credit": false,
+                "year": 2013,
+                "slug": "8d87f9a8-a0ca-42d3-a409-52fd06786ce7-BMW-528",
+                "mileage_value": 242000,
+                "price_unit": {
+                    "id": 28,
+                    "value": "₼"
+                },
+                "view_count": 393,
+                "confirmation_status": null,
+                "announcement_status": null,
+                "editable": false,
+                "is_liked": false,
+                "account_user_id": 74369,
+                "account_id": "586f7313-7583-4aa5-9e98-ccc7617b3d9d",
+                "account_username": "tural_oyay2pb",
+                "month": null,
+                "percent": null,
+                "initial_price_value": null,
+                "mileage_unit": {
+                    "id": 1,
+                    "value": "km"
+                },
+                "engine_capacity": {
+                    "id": 80,
+                    "value": "2000"
+                },
+                "marka": {
+                    "id": 31,
+                    "value": "BMW"
+                },
+                "city": {
+                    "id": 7,
+                    "value": "Bakı"
+                },
+                "model": {
+                    "id": 374,
+                    "value": "528"
+                },
+                "created_at": "20 Avqust, 12:28",
+                "account_type": {
+                    "id": "user",
+                    "value": "İstifadəçi",
+                    "avatar": null,
+                    "verified": 0
+                },
+                "announcement_type": {
+                    "id": "sale",
+                    "value": "Satış"
+                },
+                "ad": false
+            },
+            {
+                "id": "2b42111e-15e5-4644-b61b-dc7eb51f45bb",
+                "images": [
+                    "2025/08/20/unknown/70799264208189963373738765571/announcement/images/bcf91631-8e5e-41ac-8f7c-ccc5a563156a.webp",
+                    "2025/08/20/unknown/70799264208189963373738765571/announcement/images/86894c98-8d0e-445a-b790-fd8abf854f7e.webp",
+                    "2025/08/20/unknown/70799264208189963373738765571/announcement/images/1c556a10-dbb1-422c-b6f7-d68b330ba9ca.webp",
+                    "2025/08/20/unknown/70799264208189963373738765571/announcement/images/266b1beb-4c3c-47a0-9398-5cda01d43fd7.webp",
+                    "2025/08/20/unknown/70799264208189963373738765571/announcement/images/ebc815f9-45c5-4431-b67f-02602c4fd1c3.webp",
+                    "2025/08/20/unknown/70799264208189963373738765571/announcement/images/18ab1f6f-3de6-4f89-a4a0-c002ef49ba1f.webp",
+                    "2025/08/20/unknown/70799264208189963373738765571/announcement/images/41539419-67f0-4d02-b5d7-de2535f2c7fb.webp",
+                    "2025/08/20/unknown/70799264208189963373738765571/announcement/images/fb3d129a-6ba7-4bff-a120-067ceb1a2f95.webp",
+                    "2025/08/20/unknown/70799264208189963373738765571/announcement/images/4a28f787-b291-4816-9d61-2cbba792e574.webp",
+                    "2025/08/20/unknown/70799264208189963373738765571/announcement/images/77aeb8da-7424-483e-a6bd-ec17879b8247.webp",
+                    "2025/08/20/unknown/70799264208189963373738765571/announcement/images/435e340b-4a4e-4ea6-9c17-d749152a9e5d.webp",
+                    "2025/08/20/unknown/70799264208189963373738765571/announcement/images/0e3224b4-210f-4b00-ac3f-92979897ccfb.webp",
+                    "2025/08/20/unknown/70799264208189963373738765571/announcement/images/04a7796a-8f01-4cc7-9e87-148352af8ba6.webp",
+                    "2025/08/20/unknown/70799264208189963373738765571/announcement/images/abaf529a-1e19-45f2-97eb-ae53c4ae3018.webp"
+                ],
+                "price_value": 22500,
+                "description": "Evropeyka F-Sporta Yigilib Avtomobil ideal vəziyyətdədir Ən full komplektasiya Hollandiyadan 2012-ci ildə Azərbaycana gətirilib Qaraj şəraitində saxlanılmışdır Yalnız real alıcılar narahat etsin",
+                "barter": false,
+                "credit": false,
+                "year": 2011,
+                "slug": "2b42111e-15e5-4644-b61b-dc7eb51f45bb-Lexus-CT 200h",
+                "mileage_value": 176000,
+                "price_unit": {
+                    "id": 28,
+                    "value": "₼"
+                },
+                "view_count": 325,
+                "confirmation_status": null,
+                "announcement_status": null,
+                "editable": false,
+                "is_liked": false,
+                "account_user_id": 74368,
+                "account_id": "94ab42e1-c18c-490e-97f6-f06544913221",
+                "account_username": "aydin_4uru9vw",
+                "month": null,
+                "percent": null,
+                "initial_price_value": null,
+                "mileage_unit": {
+                    "id": 1,
+                    "value": "km"
+                },
+                "engine_capacity": {
+                    "id": 78,
+                    "value": "1800"
+                },
+                "marka": {
+                    "id": 166,
+                    "value": "Lexus"
+                },
+                "city": {
+                    "id": 7,
+                    "value": "Bakı"
+                },
+                "model": {
+                    "id": 809,
+                    "value": "CT 200h"
+                },
+                "created_at": "20 Avqust, 12:27",
+                "account_type": {
+                    "id": "user",
+                    "value": "İstifadəçi",
+                    "avatar": null,
+                    "verified": 0
+                },
+                "announcement_type": {
+                    "id": "sale",
+                    "value": "Satış"
+                },
+                "ad": false
+            },
+            {
+                "id": "a2bccddf-7c30-47ad-bda0-d67faebe92d3",
+                "images": [
+                    "2025/08/20/unknown/23114417529473022306928765571/announcement/images/d5328995-ca45-4af0-9dba-9eb6c71008d5.webp",
+                    "2025/08/20/unknown/23114417529473022306928765571/announcement/images/d9cb0ca9-d7d1-4513-9f22-563e81f224fc.webp",
+                    "2025/08/20/unknown/23114417529473022306928765571/announcement/images/f6abf803-1989-4cf6-802c-b3fa9efb2068.webp",
+                    "2025/08/20/unknown/23114417529473022306928765571/announcement/images/77ac753e-d20b-4d5e-b820-64ec7534eb53.webp",
+                    "2025/08/20/unknown/23114417529473022306928765571/announcement/images/dba21516-e3c6-489a-a038-2938f4e9d641.webp",
+                    "2025/08/20/unknown/23114417529473022306928765571/announcement/images/42fd0268-d80e-41f5-b901-4c5002d97b10.webp",
+                    "2025/08/20/unknown/23114417529473022306928765571/announcement/images/9f20a37c-7306-48a8-9a19-ebed4c9ca27f.webp",
+                    "2025/08/20/unknown/23114417529473022306928765571/announcement/images/ac4bcd4d-7ea0-4c8f-9224-6941b28ae6a8.webp",
+                    "2025/08/20/unknown/23114417529473022306928765571/announcement/images/9e1ac12f-cee2-4cc1-a1d8-0e2653432990.webp",
+                    "2025/08/20/unknown/23114417529473022306928765571/announcement/images/4a1a429f-e454-4e6c-be12-5d31ba6c50d3.webp",
+                    "2025/08/20/unknown/23114417529473022306928765571/announcement/images/79d7fb23-4527-45e7-9b76-2e779eadf912.webp",
+                    "2025/08/20/unknown/23114417529473022306928765571/announcement/images/3c49a749-e8f4-4e00-8541-4670ba66f1fe.webp"
+                ],
+                "price_value": 13700,
+                "description": "hec bir xerc teleb etmir, az surulen mawindi vaxtinda yagi deyiwib qulluq olunub, otur sur",
+                "barter": false,
+                "credit": false,
+                "year": 2008,
+                "slug": "a2bccddf-7c30-47ad-bda0-d67faebe92d3-Hyundai-Sonata",
+                "mileage_value": 260000,
+                "price_unit": {
+                    "id": 28,
+                    "value": "₼"
+                },
+                "view_count": 383,
+                "confirmation_status": null,
+                "announcement_status": null,
+                "editable": false,
+                "is_liked": false,
+                "account_user_id": 74367,
+                "account_id": "6038a6d9-e1c4-436b-833b-21c2725868a8",
+                "account_username": "afqan_oyay2uu",
+                "month": null,
+                "percent": null,
+                "initial_price_value": null,
+                "mileage_unit": {
+                    "id": 1,
+                    "value": "km"
+                },
+                "engine_capacity": {
+                    "id": 80,
+                    "value": "2000"
+                },
+                "marka": {
+                    "id": 115,
+                    "value": "Hyundai"
+                },
+                "city": {
+                    "id": 30,
+                    "value": "Gədəbəy"
+                },
+                "model": {
+                    "id": 3078,
+                    "value": "Sonata"
+                },
+                "created_at": "20 Avqust, 12:25",
+                "account_type": {
+                    "id": "user",
+                    "value": "İstifadəçi",
+                    "avatar": null,
+                    "verified": 0
+                },
+                "announcement_type": {
+                    "id": "sale",
+                    "value": "Satış"
+                },
+                "ad": false
+            },
+            {
+                "id": "7b1dccea-0eb8-4c89-8247-5a59c4085010",
+                "images": [
+                    "2025/08/20/unknown/95298066191046048289128765571/announcement/images/f901619c-9348-4ecb-8cc4-4f5b583d4d45.webp",
+                    "2025/08/20/unknown/95298066191046048289128765571/announcement/images/ffe1b19e-fc52-4a42-ad37-e03ce291bbc5.webp",
+                    "2025/08/20/unknown/95298066191046048289128765571/announcement/images/d7804342-23b1-4239-b1e9-ce7e2903584a.webp",
+                    "2025/08/20/unknown/95298066191046048289128765571/announcement/images/9028bfe7-670d-49fe-904f-20f69dd181eb.webp",
+                    "2025/08/20/unknown/95298066191046048289128765571/announcement/images/95552a75-9668-473b-ba45-1eb49a571e2c.webp",
+                    "2025/08/20/unknown/95298066191046048289128765571/announcement/images/6f169c69-5a3a-47a2-98a9-63004b9f1c12.webp",
+                    "2025/08/20/unknown/95298066191046048289128765571/announcement/images/5564b802-3e3c-4e80-864a-dd7f6843d5a1.webp",
+                    "2025/08/20/unknown/95298066191046048289128765571/announcement/images/629df96a-9153-4535-abb9-73bb5bd85d67.webp",
+                    "2025/08/20/unknown/95298066191046048289128765571/announcement/images/0dcb1f51-6601-490e-9a7e-4bd0702434b8.webp",
+                    "2025/08/20/unknown/95298066191046048289128765571/announcement/images/5045fe42-11f6-4ed1-b906-39405d20a9a6.webp"
+                ],
+                "price_value": 6700,
+                "description": "Tecli satılır maşın heç bir xərc tələb etmir gelen ustayla gele biler",
+                "barter": false,
+                "credit": false,
+                "year": 2010,
+                "slug": "7b1dccea-0eb8-4c89-8247-5a59c4085010-LADA (VAZ)-2107",
+                "mileage_value": 22000,
+                "price_unit": {
+                    "id": 28,
+                    "value": "₼"
+                },
+                "view_count": 389,
+                "confirmation_status": null,
+                "announcement_status": null,
+                "editable": false,
+                "is_liked": false,
+                "account_user_id": 74366,
+                "account_id": "1668ed83-5ffc-4f67-bb7a-482b2af444c8",
+                "account_username": "resad_ekdk77l",
+                "month": null,
+                "percent": null,
+                "initial_price_value": null,
+                "mileage_unit": {
+                    "id": 1,
+                    "value": "km"
+                },
+                "engine_capacity": {
+                    "id": 76,
+                    "value": "1600"
+                },
+                "marka": {
+                    "id": 160,
+                    "value": "LADA (VAZ)"
+                },
+                "city": {
+                    "id": 17,
+                    "value": "Gəncə"
+                },
+                "model": {
+                    "id": 3617,
+                    "value": "2107"
+                },
+                "created_at": "20 Avqust, 12:24",
+                "account_type": {
+                    "id": "user",
+                    "value": "İstifadəçi",
+                    "avatar": null,
+                    "verified": 0
+                },
+                "announcement_type": {
+                    "id": "sale",
+                    "value": "Satış"
+                },
+                "ad": false
+            },
+            {
+                "id": "b6c9b670-ccbb-4d1d-83f4-9900bdcb94db",
+                "images": [
+                    "2025/08/20/unknown/43366957887945148217497765571/announcement/images/b8786092-aa42-4358-9cff-0dd68cb02f8d.webp",
+                    "2025/08/20/unknown/43366957887945148217497765571/announcement/images/c7cdec73-c2c5-4930-ab1d-2d4278bd13d9.webp",
+                    "2025/08/20/unknown/43366957887945148217497765571/announcement/images/e9fb89d5-12a4-4bba-a01a-1bc3d49a9a71.webp",
+                    "2025/08/20/unknown/43366957887945148217497765571/announcement/images/89c5080e-20bb-48ad-8bb0-faf8aaf1beac.webp",
+                    "2025/08/20/unknown/43366957887945148217497765571/announcement/images/f9ce87e2-11e2-46d1-84f3-2cdfb1baa70d.webp",
+                    "2025/08/20/unknown/43366957887945148217497765571/announcement/images/8d7a4839-c190-4914-ba16-14d7048fbd12.webp",
+                    "2025/08/20/unknown/43366957887945148217497765571/announcement/images/5f003314-6fa7-4d3f-bbf0-10597a012fcf.webp",
+                    "2025/08/20/unknown/43366957887945148217497765571/announcement/images/e9f2f5b2-4b40-4037-b898-b1ed2e8ad5b2.webp",
+                    "2025/08/20/unknown/43366957887945148217497765571/announcement/images/4cf3d0d2-1b08-46c0-8a72-6338ffeac896.webp",
+                    "2025/08/20/unknown/43366957887945148217497765571/announcement/images/26eb5a0e-8db1-4ab5-b3e8-cfb4f59b4dee.webp",
+                    "2025/08/20/unknown/43366957887945148217497765571/announcement/images/4dd55237-644c-4d78-bcbb-f8bfdfeb67c6.webp",
+                    "2025/08/20/unknown/43366957887945148217497765571/announcement/images/b050a5fe-d5dd-44c2-a757-52b5432301ac.webp",
+                    "2025/08/20/unknown/43366957887945148217497765571/announcement/images/2cc4e417-021f-47b5-bafe-75feed07af3e.webp",
+                    "2025/08/20/unknown/43366957887945148217497765571/announcement/images/ef3b5e11-5889-4bac-8b70-ba342b9cc461.webp",
+                    "2025/08/20/unknown/43366957887945148217497765571/announcement/images/8979a4dc-14b3-457a-baca-1e240a0d39b1.webp",
+                    "2025/08/20/unknown/43366957887945148217497765571/announcement/images/a6daf5e5-8228-4d74-a7be-be391f85ce7d.webp",
+                    "2025/08/20/unknown/43366957887945148217497765571/announcement/images/f6fd64df-3421-4289-941c-9e6ee32bcf6b.webp",
+                    "2025/08/20/unknown/43366957887945148217497765571/announcement/images/ff207503-e22b-47cc-a0ff-bc46e04ff82b.webp"
+                ],
+                "price_value": 25700,
+                "description": "Avtomobil şəxsi istifadə üçün Koreyadan Encar bazarından gətirilib.
+Yürüş: 195,000 km (orijinal və yoxlatdırıla bilər)
+• Qiymət: (maşının yanında razılaşma ola bilər)
+⸻
+Böyük monitor   Apple CarPlay dəstəyi
+R18 təkərlər – tam yenidir
+JBL Premium səs sistemi – yüksək keyfiyyətli musiqi zövqü
+Memory Package ( yaddaş paketi) – oturacaqlar yaddaş funksiyası ilə
+Arxa kamera   ön və arxa parkinq sensorları
+(Climate Control)
+Auto hold ( elektron tormozlanma)
+Elektron əl əyləci (ruçnoy)
+Zolaq tanıma Zavod yan pərdələr
+Məsafə saxlama
+Avtomatik tormozlanma
+Sağ sidenyanın arxadan idarə olunması
+Ksenon lampalar
+Led fara, stop
+Oturacaqların isidilməsi və soyudulması
+Rolda lipstoklar (tiptronik idarə olunması) Sürüş rejimləri: ECO / COMFORT / SPORT
+Smart açar   Start/Stop düyməsi
+Elektrik qatlanan və isidilən yan güzgülər
+LED işıqlar və gündüz işıq zolaqları
+Bütün funksialar tam olaraq işləkdir
+Maşın ideal vəziyyətdədir
+90% Bez kraskadır. Dəyişən detal yoxdur.
+Heç bir texniki və ya kosmetik problemi yoxdur
+Avtomobil sinfinin ən FULL versiyasıdır
+İstənilən yerdə yoxladıla bilər. Maşın tam ideal vəziyyətdədir. ƏLavə xərci olarsa tamamilə qarşılanılacaq .texniki baxis sigorta yeni olunub caska feredo yeni deyislib avtomabilin  yagi mobil yagi ile deyislib bir sozle avtomabil gorunduyu kimi baximli ideal avtomabildir . Allah alnada satanada xeyr versin 🙏  avtomabil yalniz bilgeh kardioloji sanatoriyasinda baxmaq mumkundur 09:00 /21:00 kimi",
+                "barter": false,
+                "credit": true,
+                "year": 2016,
+                "slug": "b6c9b670-ccbb-4d1d-83f4-9900bdcb94db-Kia-K5",
+                "mileage_value": 195000,
+                "price_unit": {
+                    "id": 28,
+                    "value": "₼"
+                },
+                "view_count": 389,
+                "confirmation_status": null,
+                "announcement_status": null,
+                "editable": false,
+                "is_liked": false,
+                "account_user_id": 74365,
+                "account_id": "14939cbc-af0b-4810-9f7a-e76ea6b4b547",
+                "account_username": "sexavet_qszswhp",
+                "month": null,
+                "percent": null,
+                "initial_price_value": null,
+                "mileage_unit": {
+                    "id": 1,
+                    "value": "km"
+                },
+                "engine_capacity": {
+                    "id": 77,
+                    "value": "1700"
+                },
+                "marka": {
+                    "id": 153,
+                    "value": "Kia"
+                },
+                "city": {
+                    "id": 7,
+                    "value": "Bakı"
+                },
+                "model": {
+                    "id": 3503,
+                    "value": "K5"
+                },
+                "created_at": "20 Avqust, 12:19",
+                "account_type": {
+                    "id": "user",
+                    "value": "İstifadəçi",
+                    "avatar": null,
+                    "verified": 0
+                },
+                "announcement_type": {
+                    "id": "sale",
+                    "value": "Satış"
+                },
+                "ad": false
+            },
+            {
+                "id": "d425ba6a-0bd1-4320-ac93-0335c74b89b1",
+                "images": [
+                    "2025/08/20/unknown/18013535777776143863887765571/announcement/images/0d7b70b8-e052-4918-a509-1352089af835.webp",
+                    "2025/08/20/unknown/18013535777776143863887765571/announcement/images/b27de87e-3b3a-4c24-bff4-222185605049.webp",
+                    "2025/08/20/unknown/18013535777776143863887765571/announcement/images/a3a99870-cfb3-45e2-b496-0d91371ec522.webp",
+                    "2025/08/20/unknown/18013535777776143863887765571/announcement/images/6cf2e0ae-6404-4161-a176-18fe83a2937c.webp",
+                    "2025/08/20/unknown/18013535777776143863887765571/announcement/images/50c93aa5-1081-4a95-8123-ac085a2592dd.webp",
+                    "2025/08/20/unknown/18013535777776143863887765571/announcement/images/4f89e5cc-4157-4794-9e94-ba2eed0a54e9.webp",
+                    "2025/08/20/unknown/18013535777776143863887765571/announcement/images/88b120c3-f354-4c37-9bc0-96a209f651cf.webp",
+                    "2025/08/20/unknown/18013535777776143863887765571/announcement/images/e8a75c95-d535-4501-a063-c61812b561c3.webp",
+                    "2025/08/20/unknown/18013535777776143863887765571/announcement/images/d748864f-ef84-477c-bfa8-b9c0e313d5df.webp",
+                    "2025/08/20/unknown/18013535777776143863887765571/announcement/images/bb7b13af-4c72-435e-aa8a-a4e5be058cb2.webp",
+                    "2025/08/20/unknown/18013535777776143863887765571/announcement/images/f774c2d3-c9ac-4561-a20b-5005dc2b74d7.webp",
+                    "2025/08/20/unknown/18013535777776143863887765571/announcement/images/a0e84853-82dd-4884-893c-80d5c22240d4.webp",
+                    "2025/08/20/unknown/18013535777776143863887765571/announcement/images/af32a3dc-d31c-46c7-8a0a-b0f5a3ee132f.webp",
+                    "2025/08/20/unknown/18013535777776143863887765571/announcement/images/1496dd6a-8618-45a7-9340-66b2cb7af095.webp",
+                    "2025/08/20/unknown/18013535777776143863887765571/announcement/images/57063e2d-e3f8-47c1-b3d0-40764d803e70.webp"
+                ],
+                "price_value": 35700,
+                "description": "ƏLA VƏZİYYƏTDƏ! 2012-ci ilin fevral ayında ilk sahibi tərəfindən alınıb və yüksək xidmət göstərilib. İki açarı var, demək olarki boya dəyməyib. İstənilən yerdə yoxlatdırmaq mümkündür.",
+                "barter": false,
+                "credit": false,
+                "year": 2011,
+                "slug": "d425ba6a-0bd1-4320-ac93-0335c74b89b1-Toyota-Land Cruiser Prado",
+                "mileage_value": 171000,
+                "price_unit": {
+                    "id": 28,
+                    "value": "₼"
+                },
+                "view_count": 435,
+                "confirmation_status": null,
+                "announcement_status": null,
+                "editable": false,
+                "is_liked": false,
+                "account_user_id": 74364,
+                "account_id": "2e3ed2ba-daa3-4bf7-aa61-e38876998338",
+                "account_username": "pervin_ijgj5eh",
+                "month": null,
+                "percent": null,
+                "initial_price_value": null,
+                "mileage_unit": {
+                    "id": 1,
+                    "value": "km"
+                },
+                "engine_capacity": {
+                    "id": 87,
+                    "value": "2700"
+                },
+                "marka": {
+                    "id": 274,
+                    "value": "Toyota"
+                },
+                "city": {
+                    "id": 7,
+                    "value": "Bakı"
+                },
+                "model": {
+                    "id": 5987,
+                    "value": "Land Cruiser Prado"
+                },
+                "created_at": "20 Avqust, 12:18",
+                "account_type": {
+                    "id": "user",
+                    "value": "İstifadəçi",
+                    "avatar": null,
+                    "verified": 0
+                },
+                "announcement_type": {
+                    "id": "sale",
+                    "value": "Satış"
+                },
+                "ad": false
+            },
+            {
+                "id": "f3e376fe-8def-4726-a3b1-c01f9a912d80",
+                "images": [
+                    "2025/08/20/unknown/32836442322461411323977765571/announcement/images/c7b8a59b-baa4-4343-8fa7-12ff2e7059aa.webp",
+                    "2025/08/20/unknown/32836442322461411323977765571/announcement/images/6403971b-c235-4bad-9079-a069809efa74.webp",
+                    "2025/08/20/unknown/32836442322461411323977765571/announcement/images/b2946897-8c62-4aa8-995a-6ec1dd167c46.webp",
+                    "2025/08/20/unknown/32836442322461411323977765571/announcement/images/35d5d720-48fb-4c33-953f-b661d5b79944.webp",
+                    "2025/08/20/unknown/32836442322461411323977765571/announcement/images/d2c62628-7aca-4c45-80a4-811c18ac210e.webp",
+                    "2025/08/20/unknown/32836442322461411323977765571/announcement/images/58554913-9d97-4c7e-899d-963767c72deb.webp",
+                    "2025/08/20/unknown/32836442322461411323977765571/announcement/images/1f5f194c-a4c8-4b7c-8ccb-bc3ecf91596c.webp",
+                    "2025/08/20/unknown/32836442322461411323977765571/announcement/images/ad419139-2de6-4e91-bfd2-34fddd17d260.webp",
+                    "2025/08/20/unknown/32836442322461411323977765571/announcement/images/3483bdd1-31c9-401c-bc2e-6b6894467a97.webp",
+                    "2025/08/20/unknown/32836442322461411323977765571/announcement/images/d3c2b7f1-eb47-41de-906e-979104046ee3.webp",
+                    "2025/08/20/unknown/32836442322461411323977765571/announcement/images/5e3b99e2-e16c-4ab3-865e-5da67b5b3666.webp",
+                    "2025/08/20/unknown/32836442322461411323977765571/announcement/images/b5d705b5-346e-4830-9e6f-af4f7e9eb036.webp",
+                    "2025/08/20/unknown/32836442322461411323977765571/announcement/images/9e82e07a-3bd4-43c9-9123-85f9d8707373.webp",
+                    "2025/08/20/unknown/32836442322461411323977765571/announcement/images/c4d8bc80-e3da-4290-b2ad-8e792b08be16.webp"
+                ],
+                "price_value": 13300,
+                "description": "Maşin yaxsi veziyyetdedi.real alici narahat elesin",
+                "barter": false,
+                "credit": false,
+                "year": 2000,
+                "slug": "f3e376fe-8def-4726-a3b1-c01f9a912d80-Mercedes-C 240",
+                "mileage_value": 414000,
+                "price_unit": {
+                    "id": 28,
+                    "value": "₼"
+                },
+                "view_count": 397,
+                "confirmation_status": null,
+                "announcement_status": null,
+                "editable": false,
+                "is_liked": false,
+                "account_user_id": 74363,
+                "account_id": "945ab4e6-6283-4790-88d7-43d34c801f7d",
+                "account_username": "asiman_tnsnosg",
+                "month": null,
+                "percent": null,
+                "initial_price_value": null,
+                "mileage_unit": {
+                    "id": 1,
+                    "value": "km"
+                },
+                "engine_capacity": {
+                    "id": 84,
+                    "value": "2400"
+                },
+                "marka": {
+                    "id": 186,
+                    "value": "Mercedes"
+                },
+                "city": {
+                    "id": 24,
+                    "value": "Zaqatala"
+                },
+                "model": {
+                    "id": 949,
+                    "value": "C 240"
+                },
+                "created_at": "20 Avqust, 12:17",
+                "account_type": {
+                    "id": "user",
+                    "value": "İstifadəçi",
+                    "avatar": null,
+                    "verified": 0
+                },
+                "announcement_type": {
+                    "id": "sale",
+                    "value": "Satış"
+                },
+                "ad": false
+            },
+            {
+                "id": "03661ab4-512b-4241-be4d-b246b11b54f2",
+                "images": [
+                    "2025/08/20/unknown/55554513359735812483277765571/announcement/images/036177a0-fec7-4ac4-ba13-9f2830a9b77a.webp",
+                    "2025/08/20/unknown/55554513359735812483277765571/announcement/images/a1ccfb51-5ec8-4d4b-8cd8-c8a8d9e19275.webp",
+                    "2025/08/20/unknown/55554513359735812483277765571/announcement/images/11b9354a-85f7-4fc9-b6cd-4a08b11c512e.webp",
+                    "2025/08/20/unknown/55554513359735812483277765571/announcement/images/ab96d5f3-a365-4961-b4f6-0cbe5eef7067.webp",
+                    "2025/08/20/unknown/55554513359735812483277765571/announcement/images/b21c5cf0-3cef-4011-b502-d8120aef0a53.webp",
+                    "2025/08/20/unknown/55554513359735812483277765571/announcement/images/8b9f85b2-66a7-47c1-9ccc-54f6144f5b88.webp",
+                    "2025/08/20/unknown/55554513359735812483277765571/announcement/images/489cd6b1-b5ba-4501-b9d8-06d9e1fdc921.webp",
+                    "2025/08/20/unknown/55554513359735812483277765571/announcement/images/da319560-96df-482b-af14-ec71e6685c2a.webp",
+                    "2025/08/20/unknown/55554513359735812483277765571/announcement/images/60605ba3-7cc7-4529-8a94-15beff044b4b.webp",
+                    "2025/08/20/unknown/55554513359735812483277765571/announcement/images/73946b53-e50f-4b31-8818-612b10c1a8fe.webp",
+                    "2025/08/20/unknown/55554513359735812483277765571/announcement/images/fcb2b92b-a0b0-413f-8d43-612ac073cbab.webp",
+                    "2025/08/20/unknown/55554513359735812483277765571/announcement/images/11804659-0221-4f79-acb3-8af56fff94e0.webp"
+                ],
+                "price_value": 49900,
+                "description": "Təcili satılır ‼️  Dəyərindən aşağı qoyulma səbəbi xeyir işə görə təcili nəğd pul lazımdır.",
+                "barter": false,
+                "credit": true,
+                "year": 2023,
+                "slug": "03661ab4-512b-4241-be4d-b246b11b54f2-Kia-Sorento",
+                "mileage_value": 39800,
+                "price_unit": {
+                    "id": 28,
+                    "value": "₼"
+                },
+                "view_count": 448,
+                "confirmation_status": null,
+                "announcement_status": null,
+                "editable": false,
+                "is_liked": false,
+                "account_user_id": 74362,
+                "account_id": "b0cbfa66-57ce-41a3-b5c8-66d2fb219a7c",
+                "account_username": "ayhan_8747cmy",
+                "month": null,
+                "percent": null,
+                "initial_price_value": null,
+                "mileage_unit": {
+                    "id": 1,
+                    "value": "km"
+                },
+                "engine_capacity": {
+                    "id": 76,
+                    "value": "1600"
+                },
+                "marka": {
+                    "id": 153,
+                    "value": "Kia"
+                },
+                "city": {
+                    "id": 7,
+                    "value": "Bakı"
+                },
+                "model": {
+                    "id": 3528,
+                    "value": "Sorento"
+                },
+                "created_at": "20 Avqust, 12:15",
+                "account_type": {
+                    "id": "user",
+                    "value": "İstifadəçi",
+                    "avatar": null,
+                    "verified": 0
+                },
+                "announcement_type": {
+                    "id": "sale",
+                    "value": "Satış"
+                },
+                "ad": false
+            },
+            {
+                "id": "e6a2619e-7b78-45df-a710-79e572e356b5",
+                "images": [
+                    "2025/08/20/unknown/87087506604524482368467765571/announcement/images/372914f7-0ef1-48ef-9792-d1b8ceca5211.webp",
+                    "2025/08/20/unknown/87087506604524482368467765571/announcement/images/b97ff112-4163-4b7e-ae4f-977ddee4accc.webp",
+                    "2025/08/20/unknown/87087506604524482368467765571/announcement/images/a3519a10-c468-44d1-87bb-231af871627e.webp",
+                    "2025/08/20/unknown/87087506604524482368467765571/announcement/images/3bdd6dbc-3523-42a7-ab32-9a0a42a52b4a.webp",
+                    "2025/08/20/unknown/87087506604524482368467765571/announcement/images/3bdd853e-768e-495e-9279-eabb9d53194d.webp",
+                    "2025/08/20/unknown/87087506604524482368467765571/announcement/images/885cbf1a-c8cf-4e4a-9455-5393d227cb24.webp",
+                    "2025/08/20/unknown/87087506604524482368467765571/announcement/images/c2f193df-5f07-4c4e-a8fe-bb2a05cc979b.webp",
+                    "2025/08/20/unknown/87087506604524482368467765571/announcement/images/9e91e801-d573-49d2-9dbd-19d17b3a6f21.webp",
+                    "2025/08/20/unknown/87087506604524482368467765571/announcement/images/992a8ca5-5cd5-4475-a331-dba866962fe0.webp",
+                    "2025/08/20/unknown/87087506604524482368467765571/announcement/images/59787343-295e-4e8d-8a6a-c5bedc804579.webp"
+                ],
+                "price_value": 12700,
+                "description": "Çox ekonom maşındır. Şəhər içi 9-10 l, trasda 5-7 l yanacaq sərfiyyatı var. Maşında polirovka ilə gediləsi cızıqlar var (qiymətdə nəzərə alınacaq) Lupa lampalar və Android monitor qoyulub. Amartizator və əyləc sistemi yenilənib. Motorun yağı dəyişdirilib (mannol) Texniki baxışdan keçib.  Endirim olunacaq. Maşına 1-5ci günlər saat 09:00 dan 17:00 a kimi hökumət evinin yanında, qalan vaxtlar da Lökbatanda baxmaq olar. Whatsapp aktivdir.",
+                "barter": false,
+                "credit": false,
+                "year": 2008,
+                "slug": "e6a2619e-7b78-45df-a710-79e572e356b5-Kia-Cerato",
+                "mileage_value": 337337,
+                "price_unit": {
+                    "id": 28,
+                    "value": "₼"
+                },
+                "view_count": 325,
+                "confirmation_status": null,
+                "announcement_status": null,
+                "editable": false,
+                "is_liked": false,
+                "account_user_id": 74361,
+                "account_id": "cbd87637-9672-4797-934d-ddd139685f29",
+                "account_username": "memmed_z0e0la2",
+                "month": null,
+                "percent": null,
+                "initial_price_value": null,
+                "mileage_unit": {
+                    "id": 1,
+                    "value": "km"
+                },
+                "engine_capacity": {
+                    "id": 76,
+                    "value": "1600"
+                },
+                "marka": {
+                    "id": 153,
+                    "value": "Kia"
+                },
+                "city": {
+                    "id": 7,
+                    "value": "Bakı"
+                },
+                "model": {
+                    "id": 3491,
+                    "value": "Cerato"
+                },
+                "created_at": "20 Avqust, 12:14",
+                "account_type": {
+                    "id": "user",
+                    "value": "İstifadəçi",
+                    "avatar": null,
+                    "verified": 0
+                },
+                "announcement_type": {
+                    "id": "sale",
+                    "value": "Satış"
+                },
+                "ad": false
+            },
+            {
+                "id": "a5e54d21-6b8f-489a-b3c3-725e2f685a6a",
+                "images": [
+                    "2025/08/20/unknown/91816344189335846680357765571/announcement/images/7f4ae72d-85cc-4e91-a63c-1c19f589ca6c.webp",
+                    "2025/08/20/unknown/91816344189335846680357765571/announcement/images/7c965e0e-e94a-46ff-8f0b-0255d19f9d27.webp",
+                    "2025/08/20/unknown/91816344189335846680357765571/announcement/images/27d67beb-f9fb-4745-a2d1-f42de687194b.webp",
+                    "2025/08/20/unknown/91816344189335846680357765571/announcement/images/48341851-90ce-414a-a1d0-2c5e53ff9d1b.webp",
+                    "2025/08/20/unknown/91816344189335846680357765571/announcement/images/c22e0cae-fdb8-4e20-aa28-466fd9433598.webp",
+                    "2025/08/20/unknown/91816344189335846680357765571/announcement/images/958bf6bd-0850-4e51-bba2-1ba78c3d211d.webp",
+                    "2025/08/20/unknown/91816344189335846680357765571/announcement/images/5dd3f9f5-0263-452b-8123-f7ca2d0ed481.webp",
+                    "2025/08/20/unknown/91816344189335846680357765571/announcement/images/f4b11cde-d435-403e-9751-2ec537d97167.webp",
+                    "2025/08/20/unknown/91816344189335846680357765571/announcement/images/73829454-2dd0-4152-916f-29f51d61742f.webp",
+                    "2025/08/20/unknown/91816344189335846680357765571/announcement/images/79e4f86a-85c1-4dc8-a950-a068dd3117b5.webp"
+                ],
+                "price_value": 27000,
+                "description": "Tex Pasport 2011. Win kod - SENET 2012.mator restayling N55",
+                "barter": false,
+                "credit": false,
+                "year": 2012,
+                "slug": "a5e54d21-6b8f-489a-b3c3-725e2f685a6a-BMW-X6",
+                "mileage_value": 149000,
+                "price_unit": {
+                    "id": 28,
+                    "value": "₼"
+                },
+                "view_count": 398,
+                "confirmation_status": null,
+                "announcement_status": null,
+                "editable": false,
+                "is_liked": false,
+                "account_user_id": 74360,
+                "account_id": "9223d266-4d59-4f2e-ad33-eeca2121d5c1",
+                "account_username": "satan_oyay2te",
+                "month": null,
+                "percent": null,
+                "initial_price_value": null,
+                "mileage_unit": {
+                    "id": 1,
+                    "value": "km"
+                },
+                "engine_capacity": {
+                    "id": 91,
+                    "value": "3000"
+                },
+                "marka": {
+                    "id": 31,
+                    "value": "BMW"
+                },
+                "city": {
+                    "id": 7,
+                    "value": "Bakı"
+                },
+                "model": {
+                    "id": 463,
+                    "value": "X6"
+                },
+                "created_at": "20 Avqust, 12:13",
+                "account_type": {
+                    "id": "user",
+                    "value": "İstifadəçi",
+                    "avatar": null,
+                    "verified": 0
+                },
+                "announcement_type": {
+                    "id": "sale",
+                    "value": "Satış"
+                },
+                "ad": false
+            },
+            {
+                "id": "f9de1768-6e24-47b0-a7a4-44923caed037",
+                "images": [
+                    "2025/08/20/unknown/73495670891095156730786765571/announcement/images/c7820c46-753d-4bd9-99cc-89feab1b55ba.webp",
+                    "2025/08/20/unknown/73495670891095156730786765571/announcement/images/b0d136ff-6de4-4642-a183-c1cfec129bd3.webp",
+                    "2025/08/20/unknown/73495670891095156730786765571/announcement/images/7644335e-463d-4bae-9f2d-35d6ec7946c3.webp",
+                    "2025/08/20/unknown/73495670891095156730786765571/announcement/images/a43b49a0-c745-4439-9733-cd489d721338.webp",
+                    "2025/08/20/unknown/73495670891095156730786765571/announcement/images/3f80f4f5-8762-455f-ad7d-4cb744ce7088.webp",
+                    "2025/08/20/unknown/73495670891095156730786765571/announcement/images/8181d53c-2862-41a0-a675-965be76adf5c.webp",
+                    "2025/08/20/unknown/73495670891095156730786765571/announcement/images/7845f215-f433-4d06-9dae-ef6093657835.webp",
+                    "2025/08/20/unknown/73495670891095156730786765571/announcement/images/3ca55bf4-eb2c-4dd9-a962-0ca3ddc370f0.webp",
+                    "2025/08/20/unknown/73495670891095156730786765571/announcement/images/5686d611-a5cb-4ec2-a43c-7ed6832f26fe.webp"
+                ],
+                "price_value": 13100,
+                "description": "Salam masin ideal vezyetdedi tam dolu masindi aparaturasu her seyi var razdatka sevralit nivanindi xadavoyunda hec bir problem yoxdur tam dolu masin isteyen ucundu qiymet yerinde danisilacaq saat 21:00 kimi yiga bilersiz",
+                "barter": false,
+                "credit": false,
+                "year": 2015,
+                "slug": "f9de1768-6e24-47b0-a7a4-44923caed037-LADA (VAZ)-Niva",
+                "mileage_value": 35000,
+                "price_unit": {
+                    "id": 28,
+                    "value": "₼"
+                },
+                "view_count": 346,
+                "confirmation_status": null,
+                "announcement_status": null,
+                "editable": false,
+                "is_liked": false,
+                "account_user_id": 74359,
+                "account_id": "590562fd-3653-4e77-959a-ac66d62b095b",
+                "account_username": "ilkin_jd6duv2",
+                "month": null,
+                "percent": null,
+                "initial_price_value": null,
+                "mileage_unit": {
+                    "id": 1,
+                    "value": "km"
+                },
+                "engine_capacity": {
+                    "id": 77,
+                    "value": "1700"
+                },
+                "marka": {
+                    "id": 160,
+                    "value": "LADA (VAZ)"
+                },
+                "city": {
+                    "id": 7,
+                    "value": "Bakı"
+                },
+                "model": {
+                    "id": 3635,
+                    "value": "Niva"
+                },
+                "created_at": "20 Avqust, 12:02",
+                "account_type": {
+                    "id": "user",
+                    "value": "İstifadəçi",
+                    "avatar": null,
+                    "verified": 0
+                },
+                "announcement_type": {
+                    "id": "sale",
+                    "value": "Satış"
+                },
+                "ad": false
+            },
+            {
+                "id": "c78b4b60-d18f-4457-9283-a09b5876dd5a",
+                "images": [
+                    "2025/08/20/unknown/33630290247900420936286765571/announcement/images/a7a8cb7c-71c2-4c49-824f-56cbd7538d0e.webp",
+                    "2025/08/20/unknown/33630290247900420936286765571/announcement/images/99ee57f8-2cdc-4d89-994f-91e93dbca670.webp",
+                    "2025/08/20/unknown/33630290247900420936286765571/announcement/images/2e8737aa-7e63-4649-8b84-f862621de45d.webp",
+                    "2025/08/20/unknown/33630290247900420936286765571/announcement/images/2c1de3bd-4df1-459e-a84b-8923c71e9f89.webp",
+                    "2025/08/20/unknown/33630290247900420936286765571/announcement/images/3d8843f3-6db1-4b89-8558-d776a1268aa0.webp",
+                    "2025/08/20/unknown/33630290247900420936286765571/announcement/images/2d4ccd2d-984b-4c02-805b-6e3e109bad85.webp",
+                    "2025/08/20/unknown/33630290247900420936286765571/announcement/images/778f12f5-ff68-49fa-89b2-6065e01f5a1c.webp",
+                    "2025/08/20/unknown/33630290247900420936286765571/announcement/images/30161ea4-6e8a-445a-8e15-bcd7051bd861.webp",
+                    "2025/08/20/unknown/33630290247900420936286765571/announcement/images/a632088c-9884-413c-8d35-2dd0c86828bd.webp",
+                    "2025/08/20/unknown/33630290247900420936286765571/announcement/images/154d9153-7655-4e93-9c76-6ae37bc9f614.webp",
+                    "2025/08/20/unknown/33630290247900420936286765571/announcement/images/896afd0a-1d76-4dad-8f16-1aff552be349.webp",
+                    "2025/08/20/unknown/33630290247900420936286765571/announcement/images/aebe4530-8f66-478c-9f89-6efc53d1303d.webp",
+                    "2025/08/20/unknown/33630290247900420936286765571/announcement/images/8a3f710e-b3a8-45a0-8130-9b2c993b8bd0.webp",
+                    "2025/08/20/unknown/33630290247900420936286765571/announcement/images/39998dea-8d10-43b7-8787-83fba7f339f1.webp"
+                ],
+                "price_value": 12600,
+                "description": "Masin ela vezyetdedi otur sur mawindi luk kansaner butun funksiyasi iwlekdi.masinin kasmetikasi eladi.tekerleri tezedi.sideynilerin hamisi yeni deriyle evez olunub.mawina yalniz ciddi alicilar elaqe saxlasin.",
+                "barter": false,
+                "credit": false,
+                "year": 2008,
+                "slug": "c78b4b60-d18f-4457-9283-a09b5876dd5a-Hyundai-Sonata",
+                "mileage_value": 378000,
+                "price_unit": {
+                    "id": 28,
+                    "value": "₼"
+                },
+                "view_count": 332,
+                "confirmation_status": null,
+                "announcement_status": null,
+                "editable": false,
+                "is_liked": false,
+                "account_user_id": 74358,
+                "account_id": "b8321549-3c17-477e-8dd6-04ffa8b1536c",
+                "account_username": "emil_dowo2x4",
+                "month": null,
+                "percent": null,
+                "initial_price_value": null,
+                "mileage_unit": {
+                    "id": 1,
+                    "value": "km"
+                },
+                "engine_capacity": {
+                    "id": 84,
+                    "value": "2400"
+                },
+                "marka": {
+                    "id": 115,
+                    "value": "Hyundai"
+                },
+                "city": {
+                    "id": 7,
+                    "value": "Bakı"
+                },
+                "model": {
+                    "id": 3078,
+                    "value": "Sonata"
+                },
+                "created_at": "20 Avqust, 12:00",
+                "account_type": {
+                    "id": "user",
+                    "value": "İstifadəçi",
+                    "avatar": null,
+                    "verified": 0
+                },
+                "announcement_type": {
+                    "id": "sale",
+                    "value": "Satış"
+                },
+                "ad": false
+            },
+            {
+                "id": "b5b80843-124f-46b9-8a9c-1c2e3765f7a1",
+                "images": [
+                    "2025/08/20/unknown/47474077488549968708676765571/announcement/images/4759361b-d514-49d6-b9cb-e94f29882be6.webp",
+                    "2025/08/20/unknown/47474077488549968708676765571/announcement/images/ba82ddbf-d660-410d-ba86-95d81f8b4f39.webp",
+                    "2025/08/20/unknown/47474077488549968708676765571/announcement/images/bf718a8c-3877-4b46-a6e6-55a584724978.webp",
+                    "2025/08/20/unknown/47474077488549968708676765571/announcement/images/d5db06f9-9472-424c-b845-5b9bd8eb40ca.webp",
+                    "2025/08/20/unknown/47474077488549968708676765571/announcement/images/bb6e364c-527a-4055-801f-88bb685f3416.webp",
+                    "2025/08/20/unknown/47474077488549968708676765571/announcement/images/4567d507-4b2c-43f7-85ae-82e5c0d03e3c.webp",
+                    "2025/08/20/unknown/47474077488549968708676765571/announcement/images/6a9dc39f-4c4e-4b3a-839b-787ff99c7578.webp",
+                    "2025/08/20/unknown/47474077488549968708676765571/announcement/images/dee24b69-eb99-4b01-b86e-5269c09a3c28.webp",
+                    "2025/08/20/unknown/47474077488549968708676765571/announcement/images/787a7b7b-4dfc-4d5a-9c85-a7e56e5aac99.webp",
+                    "2025/08/20/unknown/47474077488549968708676765571/announcement/images/84a2bac8-29d6-420d-871a-0df67a7ecf4a.webp",
+                    "2025/08/20/unknown/47474077488549968708676765571/announcement/images/f8b7e8e2-37e8-41e5-b4e6-639954714f93.webp",
+                    "2025/08/20/unknown/47474077488549968708676765571/announcement/images/b8455339-2759-4c6a-a0cc-003a1469fd78.webp"
+                ],
+                "price_value": 7600,
+                "description": "Masin ideal vezyetdedir Hecbir problemi yoxdur Kandisianeri ve luku isleyir Mator yag yemir,karopkada gecikme yoxdur Senedleri qaydqsindadi Təcili satılır İli 94",
+                "barter": true,
+                "credit": false,
+                "year": 1994,
+                "slug": "b5b80843-124f-46b9-8a9c-1c2e3765f7a1-Mercedes-C 200",
+                "mileage_value": 287000,
+                "price_unit": {
+                    "id": 28,
+                    "value": "₼"
+                },
+                "view_count": 310,
+                "confirmation_status": null,
+                "announcement_status": null,
+                "editable": false,
+                "is_liked": false,
+                "account_user_id": 74357,
+                "account_id": "69eee332-c7c3-422f-9b65-5231b57178f8",
+                "account_username": "turane_kgogbz3",
+                "month": null,
+                "percent": null,
+                "initial_price_value": null,
+                "mileage_unit": {
+                    "id": 1,
+                    "value": "km"
+                },
+                "engine_capacity": {
+                    "id": 80,
+                    "value": "2000"
+                },
+                "marka": {
+                    "id": 186,
+                    "value": "Mercedes"
+                },
+                "city": {
+                    "id": 7,
+                    "value": "Bakı"
+                },
+                "model": {
+                    "id": 946,
+                    "value": "C 200"
+                },
+                "created_at": "20 Avqust, 12:00",
+                "account_type": {
+                    "id": "user",
+                    "value": "İstifadəçi",
+                    "avatar": null,
+                    "verified": 0
+                },
+                "announcement_type": {
+                    "id": "sale",
+                    "value": "Satış"
+                },
+                "ad": false
+            },
+            {
+                "id": "8628ca4f-2230-4e82-b636-c1dab9b379b3",
+                "images": [
+                    "2025/08/20/unknown/94118750539767362319176765571/announcement/images/5da5379f-9640-492e-8ce5-90e3e2513c42.webp",
+                    "2025/08/20/unknown/94118750539767362319176765571/announcement/images/c26879fc-2122-4fa4-a862-41e2ca812538.webp",
+                    "2025/08/20/unknown/94118750539767362319176765571/announcement/images/23183aa2-9ba3-4a05-a0a0-fdd9a776ab84.webp",
+                    "2025/08/20/unknown/94118750539767362319176765571/announcement/images/386e38e0-b793-425d-8116-f17503bbae43.webp",
+                    "2025/08/20/unknown/94118750539767362319176765571/announcement/images/57e5e950-ec3b-4bfd-a565-c1b406320d22.webp",
+                    "2025/08/20/unknown/94118750539767362319176765571/announcement/images/1305c099-b4c6-4ae4-944f-31e94e623f6d.webp",
+                    "2025/08/20/unknown/94118750539767362319176765571/announcement/images/73808a71-41bf-445b-b3c7-07df0e1b0a5d.webp"
+                ],
+                "price_value": 3800,
+                "description": "Mator 06  most idal  karopka  5  hec bir  xerci  yoxdu   curuy  yoxdu  kasmetka  normaldi bos  bekar  adamlar  nerahat  etmesin",
+                "barter": true,
+                "credit": false,
+                "year": 1999,
+                "slug": "8628ca4f-2230-4e82-b636-c1dab9b379b3-LADA (VAZ)-2106",
+                "mileage_value": 255685,
+                "price_unit": {
+                    "id": 28,
+                    "value": "₼"
+                },
+                "view_count": 343,
+                "confirmation_status": null,
+                "announcement_status": null,
+                "editable": false,
+                "is_liked": false,
+                "account_user_id": 74356,
+                "account_id": "c6f6efab-819a-4c10-b248-47be728fa90f",
+                "account_username": "emil_8747zlc",
+                "month": null,
+                "percent": null,
+                "initial_price_value": null,
+                "mileage_unit": {
+                    "id": 1,
+                    "value": "km"
+                },
+                "engine_capacity": {
+                    "id": 76,
+                    "value": "1600"
+                },
+                "marka": {
+                    "id": 160,
+                    "value": "LADA (VAZ)"
+                },
+                "city": {
+                    "id": 23,
+                    "value": "Yevlax"
+                },
+                "model": {
+                    "id": 3616,
+                    "value": "2106"
+                },
+                "created_at": "20 Avqust, 11:59",
+                "account_type": {
+                    "id": "user",
+                    "value": "İstifadəçi",
+                    "avatar": null,
+                    "verified": 0
+                },
+                "announcement_type": {
+                    "id": "sale",
+                    "value": "Satış"
+                },
+                "ad": false
+            },
+            {
+                "id": "ddca8831-f437-44db-85b6-4a0a29dafba7",
+                "images": [
+                    "2025/08/20/unknown/97052596780577324953766765571/announcement/images/7a2d4bab-1963-4241-8f84-79bb531b4c18.webp",
+                    "2025/08/20/unknown/97052596780577324953766765571/announcement/images/4237ec5e-2c51-4379-81ac-e244f9433ddc.webp",
+                    "2025/08/20/unknown/97052596780577324953766765571/announcement/images/cc981596-1070-4131-a8d5-9b0bb3ad1458.webp",
+                    "2025/08/20/unknown/97052596780577324953766765571/announcement/images/36dae580-d1ea-4834-96f9-cdbccafccd9b.webp",
+                    "2025/08/20/unknown/97052596780577324953766765571/announcement/images/6b1972b3-2e00-4948-881c-3a857554ed8c.webp",
+                    "2025/08/20/unknown/97052596780577324953766765571/announcement/images/1b62705c-ff4f-47df-a2dd-c97a54af1214.webp",
+                    "2025/08/20/unknown/97052596780577324953766765571/announcement/images/480dc23c-efe2-410c-9a9f-ccdf2a69a0f8.webp",
+                    "2025/08/20/unknown/97052596780577324953766765571/announcement/images/dc02d29d-772d-40f8-9548-aec17269d6e5.webp",
+                    "2025/08/20/unknown/97052596780577324953766765571/announcement/images/87d143a5-5c86-40ba-b9ec-134b8f1fde42.webp",
+                    "2025/08/20/unknown/97052596780577324953766765571/announcement/images/88620666-701e-4e1a-b4d9-af98aaabe82c.webp"
+                ],
+                "price_value": 12200,
+                "description": "4 teze teker. Orjinal ayaqaltilari mex oldugu ucun qoymauram. Baqjdadir . Hec bir problemi yoxdur. Aile mawinidir. 9 ildir mawin mendedir.",
+                "barter": false,
+                "credit": false,
+                "year": 2000,
+                "slug": "ddca8831-f437-44db-85b6-4a0a29dafba7-Mercedes-C 200",
+                "mileage_value": 320000,
+                "price_unit": {
+                    "id": 28,
+                    "value": "₼"
+                },
+                "view_count": 341,
+                "confirmation_status": null,
+                "announcement_status": null,
+                "editable": false,
+                "is_liked": false,
+                "account_user_id": 74355,
+                "account_id": "128e0ceb-55d4-4ebc-8486-3a8f8a450641",
+                "account_username": "etibar_1b2bi4u",
+                "month": null,
+                "percent": null,
+                "initial_price_value": null,
+                "mileage_unit": {
+                    "id": 1,
+                    "value": "km"
+                },
+                "engine_capacity": {
+                    "id": 80,
+                    "value": "2000"
+                },
+                "marka": {
+                    "id": 186,
+                    "value": "Mercedes"
+                },
+                "city": {
+                    "id": 2,
+                    "value": "Ağdaş"
+                },
+                "model": {
+                    "id": 946,
+                    "value": "C 200"
+                },
+                "created_at": "20 Avqust, 11:58",
+                "account_type": {
+                    "id": "user",
+                    "value": "İstifadəçi",
+                    "avatar": null,
+                    "verified": 0
+                },
+                "announcement_type": {
+                    "id": "sale",
+                    "value": "Satış"
+                },
+                "ad": false
+            },
+            {
+                "id": "6cdc7354-0b24-4f51-b104-2a457a0ea4fe",
+                "images": [
+                    "2025/08/20/unknown/94925471847173481475266765571/announcement/images/41022196-1181-4b65-85c1-36fbe73822bb.webp",
+                    "2025/08/20/unknown/94925471847173481475266765571/announcement/images/eb7ce7cd-588e-4534-ad15-b246905d92c2.webp",
+                    "2025/08/20/unknown/94925471847173481475266765571/announcement/images/8e3eb535-6d84-4aee-89e5-ca226a15986b.webp",
+                    "2025/08/20/unknown/94925471847173481475266765571/announcement/images/97bab73d-7b6c-4e58-9780-b176eca60b78.webp",
+                    "2025/08/20/unknown/94925471847173481475266765571/announcement/images/35db97fa-b7fe-4fe7-a2ec-a16cffd3bcd8.webp",
+                    "2025/08/20/unknown/94925471847173481475266765571/announcement/images/09401303-081b-4250-8be1-d7e358f56327.webp",
+                    "2025/08/20/unknown/94925471847173481475266765571/announcement/images/ac2ac6db-d877-4327-b0d7-04fdce3e6d07.webp",
+                    "2025/08/20/unknown/94925471847173481475266765571/announcement/images/09039173-a546-4939-9690-eea9587944c1.webp",
+                    "2025/08/20/unknown/94925471847173481475266765571/announcement/images/bd2a6c98-5435-4057-9215-d499f23cf714.webp",
+                    "2025/08/20/unknown/94925471847173481475266765571/announcement/images/6ebf8e0e-084f-446f-8fc7-dc1feb9bd4f0.webp",
+                    "2025/08/20/unknown/94925471847173481475266765571/announcement/images/7dd90e85-074a-4ffb-86c1-231488cad00f.webp",
+                    "2025/08/20/unknown/94925471847173481475266765571/announcement/images/a88826bb-d983-4e49-a42e-8e98013a9ac4.webp",
+                    "2025/08/20/unknown/94925471847173481475266765571/announcement/images/640e2969-1d3f-4c66-bb41-104e1fb53587.webp",
+                    "2025/08/20/unknown/94925471847173481475266765571/announcement/images/b992d671-fa68-421d-a0fb-163500bda33e.webp",
+                    "2025/08/20/unknown/94925471847173481475266765571/announcement/images/61259bb5-bfca-4809-92b4-9ddc1b4efcb6.webp",
+                    "2025/08/20/unknown/94925471847173481475266765571/announcement/images/90b2e13f-1684-49b7-b598-192c06250ed3.webp",
+                    "2025/08/20/unknown/94925471847173481475266765571/announcement/images/c414baf6-c665-4146-af18-967b1cf5f974.webp"
+                ],
+                "price_value": 15900,
+                "description": "1.4 TSI Motor. hec bir problemi yoxdur. ideal masindir. 126min milde azerbaycana gelib burda ilk sahibiyem.  masina cavabdehem",
+                "barter": true,
+                "credit": true,
+                "year": 2016,
+                "slug": "6cdc7354-0b24-4f51-b104-2a457a0ea4fe-Volkswagen-Jetta",
+                "mileage_value": 299933,
+                "price_unit": {
+                    "id": 28,
+                    "value": "₼"
+                },
+                "view_count": 298,
+                "confirmation_status": null,
+                "announcement_status": null,
+                "editable": false,
+                "is_liked": false,
+                "account_user_id": 74354,
+                "account_id": "1b5ff18b-c302-418c-bc36-345bf2952b92",
+                "account_username": "elnur_3515x7d",
+                "month": null,
+                "percent": null,
+                "initial_price_value": null,
+                "mileage_unit": {
+                    "id": 1,
+                    "value": "km"
+                },
+                "engine_capacity": {
+                    "id": 74,
+                    "value": "1400"
+                },
+                "marka": {
+                    "id": 284,
+                    "value": "Volkswagen"
+                },
+                "city": {
+                    "id": 65,
+                    "value": "Şirvan"
+                },
+                "model": {
+                    "id": 4847,
+                    "value": "Jetta"
+                },
+                "created_at": "20 Avqust, 11:57",
+                "account_type": {
+                    "id": "user",
+                    "value": "İstifadəçi",
+                    "avatar": null,
+                    "verified": 0
+                },
+                "announcement_type": {
+                    "id": "sale",
+                    "value": "Satış"
+                },
+                "ad": false
+            }
+        ],
+        "metadata": {
+            "total": 2249,
+            "current_page": 5,
+            "next_page": true
+        }
+    },
+    "status": true,
+    "locale": "az"
+}
