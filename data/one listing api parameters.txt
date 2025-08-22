@@ -1,0 +1,322 @@
+api headers:
+Request URL
+https://api.tunel.az/api/announcements/4228faf9-3a26-409e-8e69-48f922acc502-BMW-X5
+Request Method
+GET
+Status Code
+200 OK
+Remote Address
+172.67.68.204:443
+Referrer Policy
+strict-origin-when-cross-origin
+access-control-allow-credentials
+true
+access-control-allow-origin
+*
+alt-svc
+h3=":443"; ma=86400
+cf-cache-status
+DYNAMIC
+cf-ray
+9732ac404e8b23a0-ARN
+content-encoding
+zstd
+content-type
+application/json
+date
+Fri, 22 Aug 2025 13:21:22 GMT
+nel
+{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+report-to
+{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=vMZsSf57JfOAete7HDkiSA9MJlfm3sxJ3aFJU%2FfTgABVszLlpV3E7eYoiGBwYssDvs1txU9Gi2Wk70afMCQMi3w9MIpxQc0quRlwxg%3D%3D"}]}
+server
+cloudflare
+vary
+Accept-Encoding
+:authority
+api.tunel.az
+:method
+GET
+:path
+/api/announcements/4228faf9-3a26-409e-8e69-48f922acc502-BMW-X5
+:scheme
+https
+accept
+*/*
+accept-encoding
+gzip, deflate, br, zstd
+accept-language
+az
+dnt
+1
+origin
+https://tunel.az
+priority
+u=1, i
+referer
+https://tunel.az/
+sec-ch-ua
+"Not;A=Brand";v="99", "Google Chrome";v="139", "Chromium";v="139"
+sec-ch-ua-mobile
+?0
+sec-ch-ua-platform
+"macOS"
+sec-fetch-dest
+empty
+sec-fetch-mode
+cors
+sec-fetch-site
+same-site
+user-agent
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+x-browser
+chrome
+x-browser-version
+139.0
+x-device-id
+YTU4NTU0ZDItNTFlYy00Y2UzLTkxN2YtZjYyZTA4MThlNTg4LU1vemlsbGEvNS4wIChNYWNpbnRvc2g7IEludGVsIE1hYyBPUyBYIDEwXzE1XzcpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMzkuMC4wLjAgU2FmYXJpLzUzNy4zNi1pcGFkLWVuLUdCLTE0NzB4OTU2LUFzaWEvQmFrdQ==
+x-device-type
+mobile
+x-os
+ipad
+x-os-version
+Unknown
+x-screen-resolution
+1470x956
+x-session-type
+web
+x-timezone
+Asia/Baku
+x-user-agent
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+
+api response:
+{
+    "code": 200,
+    "message": "Uğurlu.",
+    "data": {
+        "id": "4228faf9-3a26-409e-8e69-48f922acc502",
+        "slug": "4228faf9-3a26-409e-8e69-48f922acc502-BMW-X5",
+        "announcement_number": "171049",
+        "vin": null,
+        "images": [
+            "2025/08/21/unknown/73027204136623364768701775571/announcement/images/19ba6bcc-e48b-4ca9-8c17-302751267df1.webp",
+            "2025/08/21/unknown/73027204136623364768701775571/announcement/images/50932db8-f20b-4499-a524-e89ea229f010.webp",
+            "2025/08/21/unknown/73027204136623364768701775571/announcement/images/1fe07d8b-e0f8-4c28-9022-feca830f22f4.webp",
+            "2025/08/21/unknown/73027204136623364768701775571/announcement/images/0380549e-132a-4c35-9e4d-af079ae52cd0.webp",
+            "2025/08/21/unknown/73027204136623364768701775571/announcement/images/12cb54f6-80c5-405c-87e4-ecda182f22cc.webp",
+            "2025/08/21/unknown/73027204136623364768701775571/announcement/images/fee7c5f2-c605-40c7-bd56-098ef22d7b92.webp",
+            "2025/08/21/unknown/73027204136623364768701775571/announcement/images/78dbcff9-b1c7-4e84-8855-07ff8c21f331.webp",
+            "2025/08/21/unknown/73027204136623364768701775571/announcement/images/a306ee20-33f5-432c-adba-b7ee98c49e98.webp",
+            "2025/08/21/unknown/73027204136623364768701775571/announcement/images/8be06e9d-0399-479f-afdc-1cb00d3730a0.webp",
+            "2025/08/21/unknown/73027204136623364768701775571/announcement/images/85030c37-98d0-4633-82c6-5461af9c155f.webp",
+            "2025/08/21/unknown/73027204136623364768701775571/announcement/images/4fd29413-cef0-43af-9521-101fef205b39.webp",
+            "2025/08/21/unknown/73027204136623364768701775571/announcement/images/216e74b8-9262-4919-9f6e-f3f97f97bc99.webp",
+            "2025/08/21/unknown/73027204136623364768701775571/announcement/images/0b3e3094-ef51-487e-9709-e4626ae5ce22.webp"
+        ],
+        "video": null,
+        "appearance": [
+            {
+                "id": "left_rear_door",
+                "statusId": 1
+            },
+            {
+                "id": "left_front_door",
+                "statusId": 1
+            },
+            {
+                "id": "front_buffer",
+                "statusId": 1
+            },
+            {
+                "id": "left_rear_wing",
+                "statusId": 1
+            },
+            {
+                "id": "left_front_wing",
+                "statusId": 1
+            },
+            {
+                "id": "right_front_wing",
+                "statusId": 1
+            },
+            {
+                "id": "right_rear_door",
+                "statusId": 1
+            },
+            {
+                "id": "right_front_door",
+                "statusId": 1
+            },
+            {
+                "id": "right_rear_wing",
+                "statusId": 1
+            },
+            {
+                "id": "engine_hood",
+                "statusId": 1
+            },
+            {
+                "id": "rear_hood",
+                "statusId": 1
+            },
+            {
+                "id": "ceiling",
+                "statusId": 1
+            },
+            {
+                "id": "rear_buffer",
+                "statusId": 1
+            }
+        ],
+        "price_value": 27500,
+        "description": "Salam.Maşın göründüyü kimi idealdır.Tam full versiya. Qırılan sidenkalar. Bugun ki günə heçbir xərc tələb etmir. Yağ azaltması yoxdur! Mator karopka idealdı. Yeni AGM akumlyator.salon  və kosmetikası səliqəlidir. Bütün funksiyalar işləkdir. BMW group yağ istifadə edilib. Təkərləri yenidir (300km sürülüb) Benson ön şüşə.Texniki baxış və sığorta yenidir.İstədiyiniz yerdə yoxlada bilərsiz.",
+        "barter": false,
+        "credit": false,
+        "year": 2008,
+        "mileage_value": 263000,
+        "price_unit": {
+            "id": 28,
+            "label": "₼"
+        },
+        "contact_city_id": 27,
+        "view_count": 580,
+        "engine_power": 355,
+        "marka": {
+            "id": 31,
+            "label": "BMW"
+        },
+        "model": {
+            "id": 462,
+            "label": "X5"
+        },
+        "status": {
+            "id": 181,
+            "label": "Sürülmüş"
+        },
+        "category": null,
+        "ban": {
+            "id": 44,
+            "label": "Offroader / SUV"
+        },
+        "transmission": {
+            "id": 185,
+            "label": "Tam"
+        },
+        "fuel": {
+            "id": 161,
+            "label": "Benzin"
+        },
+        "color": {
+            "id": 8,
+            "label": "Qara"
+        },
+        "gearbox": {
+            "id": 169,
+            "label": "Avtomat"
+        },
+        "owner": {
+            "id": 197,
+            "label": "1"
+        },
+        "target_country": {
+            "id": 188,
+            "label": "Avropa"
+        },
+        "engine_capacity": {
+            "id": 109,
+            "label": "4800"
+        },
+        "seats": {
+            "id": 204,
+            "label": "5"
+        },
+        "editable": false,
+        "total": 1,
+        "confirmation_status": null,
+        "announcement_status": null,
+        "equipments": [
+            {
+                "id": 144,
+                "label": "Yüngül lehimli disklər"
+            },
+            {
+                "id": 145,
+                "label": "Mərkəzi qapanma"
+            },
+            {
+                "id": 146,
+                "label": "Ksenon lampalar"
+            },
+            {
+                "id": 147,
+                "label": "Kondisioner"
+            },
+            {
+                "id": 151,
+                "label": "Yan pərdələr"
+            },
+            {
+                "id": 152,
+                "label": "Oturacaqların isidilməsi"
+            },
+            {
+                "id": 153,
+                "label": "Yağış sensoru"
+            },
+            {
+                "id": 154,
+                "label": "Arxa görüntü kamerası"
+            },
+            {
+                "id": 156,
+                "label": "Lyuk"
+            },
+            {
+                "id": 157,
+                "label": "Park radarı"
+            },
+            {
+                "id": 158,
+                "label": "ABS"
+            },
+            {
+                "id": 159,
+                "label": "Oturacaqların ventilyasiyası"
+            },
+            {
+                "id": 160,
+                "label": "Dəri salon"
+            }
+        ],
+        "announcement_type": {
+            "id": "sale",
+            "label": "Satış"
+        },
+        "mileage_unit": {
+            "id": 1,
+            "label": "km"
+        },
+        "created_at": "Dünən, 14:11",
+        "updated_at": "Bu gün, 17:20",
+        "publishment": {
+            "name": "Cəmil",
+            "phone": "+994553751005",
+            "city": {
+                "id": 27,
+                "label": "İsmayıllı"
+            },
+            "account_type": {
+                "id": "user",
+                "label": "İstifadəçi"
+            },
+            "account_id": "29665b66-ad23-4f81-82a2-6727d7ccab8a",
+            "account_avatar": null,
+            "account_username": "cemil_0iecjsy",
+            "announcement_count": 0,
+            "verified": 0
+        }
+    },
+    "status": true,
+    "locale": "az"
+}

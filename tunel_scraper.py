@@ -11,6 +11,8 @@ import time
 from typing import Dict, List, Optional
 from urllib.parse import quote
 import logging
+import zstandard as zstd
+import io
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
@@ -23,19 +25,26 @@ class TunelScraper:
             'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36',
             'Accept': '*/*',
             'Accept-Language': 'az',
-            'Accept-Encoding': 'gzip, deflate, br, zstd',
+            'Accept-Encoding': 'gzip, deflate',
             'Origin': 'https://tunel.az',
             'Referer': 'https://tunel.az/',
             'DNT': '1',
+            'Sec-Ch-Ua': '"Not;A=Brand";v="99", "Google Chrome";v="139", "Chromium";v="139"',
+            'Sec-Ch-Ua-Mobile': '?0',
+            'Sec-Ch-Ua-Platform': '"macOS"',
             'Sec-Fetch-Dest': 'empty',
             'Sec-Fetch-Mode': 'cors',
             'Sec-Fetch-Site': 'same-site',
             'X-Browser': 'chrome',
             'X-Browser-Version': '139.0',
+            'X-Device-Id': 'YTU4NTU0ZDItNTFlYy00Y2UzLTkxN2YtZjYyZTA4MThlNTg4LU1vemlsbGEvNS4wIChNYWNpbnRvc2g7IEludGVsIE1hYyBPUyBYIDEwXzE1XzcpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMzkuMC4wLjAgU2FmYXJpLzUzNy4zNi1pcGFkLWVuLUdCLTE0NzB4OTU2LUFzaWEvQmFrdQ==',
             'X-Device-Type': 'mobile',
             'X-OS': 'ipad',
+            'X-OS-Version': 'Unknown',
+            'X-Screen-Resolution': '1470x956',
             'X-Session-Type': 'web',
-            'X-Timezone': 'Asia/Baku'
+            'X-Timezone': 'Asia/Baku',
+            'X-User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36'
         }
         self.session.headers.update(self.headers)
         self.delay = 1  # Delay between requests in seconds
@@ -63,6 +72,7 @@ class TunelScraper:
             response.raise_for_status()
             
             data = response.json()
+            
             if data.get('code') == 200 and data.get('status'):
                 return data
             else:
@@ -108,7 +118,7 @@ class TunelScraper:
             logger.error(f"JSON decode error for slug {slug}: {str(e)}")
             return None
     
-    def get_all_listings(self, max_pages: Optional[int] = None, announcement_type: str = "sale") -> List[str]:
+    def get_all_listings(self, max_pages: Optional[int] = None, announcement_type: str = "sale", limit: int = 24) -> List[str]:
         """
         Fetch all listing slugs from all pages
         
@@ -129,24 +139,21 @@ class TunelScraper:
                 break
                 
             logger.info(f"Fetching page {page}...")
-            data = self.fetch_listings_page(page, announcement_type=announcement_type)
+            data = self.fetch_listings_page(page, limit=limit, announcement_type=announcement_type)
             
-            if not data or not data.get('data', {}).get('data'):
+            if not data or not data.get('data', {}).get('items'):
                 logger.info(f"No more data available. Stopped at page {page}")
                 break
             
-            listings = data['data']['data']
+            listings = data['data']['items']
             page_slugs = [listing.get('slug') for listing in listings if listing.get('slug')]
             slugs.extend(page_slugs)
             
             logger.info(f"Page {page}: Found {len(page_slugs)} slugs")
             
-            # Check if this is the last page
-            current_page = data['data'].get('current_page', page)
-            last_page = data['data'].get('last_page', page)
-            
-            if current_page >= last_page:
-                logger.info(f"Reached last page: {last_page}")
+            # Check if we got fewer results than the limit (indicates last page)
+            if len(page_slugs) < limit:
+                logger.info(f"Reached last page: got {len(page_slugs)} results (less than limit of {limit})")
                 break
             
             page += 1
